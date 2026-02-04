@@ -25,7 +25,7 @@
           },
           "offset_field": 0,
           "offset_start": 11,
-          "offset_end": 45
+          "offset_end": 44
         },
         {
           "name": "date",
@@ -42,9 +42,9 @@
               "tz_minute": 0
             }
           },
-          "offset_field": 45,
-          "offset_start": 50,
-          "offset_end": 84
+          "offset_field": 44,
+          "offset_start": 49,
+          "offset_end": 82
         },
         {
           "name": "from",
@@ -58,9 +58,9 @@
               ]
             }
           },
-          "offset_field": 84,
-          "offset_start": 89,
-          "offset_end": 126
+          "offset_field": 82,
+          "offset_start": 87,
+          "offset_end": 123
         },
         {
           "name": {
@@ -69,9 +69,9 @@
           "value": {
             "Text": "Mozilla 4.7 [en] (WinNT; I)"
           },
-          "offset_field": 126,
-          "offset_start": 135,
-          "offset_end": 165
+          "offset_field": 123,
+          "offset_start": 132,
+          "offset_end": 161
         },
         {
           "name": {
@@ -80,18 +80,18 @@
           "value": {
             "Text": "en"
           },
-          "offset_field": 165,
-          "offset_start": 183,
-          "offset_end": 188
+          "offset_field": 161,
+          "offset_start": 179,
+          "offset_end": 183
         },
         {
           "name": "mime_version",
           "value": {
             "Text": "1.0"
           },
-          "offset_field": 188,
-          "offset_start": 201,
-          "offset_end": 207
+          "offset_field": 183,
+          "offset_start": 196,
+          "offset_end": 201
         },
         {
           "name": "to",
@@ -105,18 +105,18 @@
               ]
             }
           },
-          "offset_field": 207,
-          "offset_start": 210,
-          "offset_end": 266
+          "offset_field": 201,
+          "offset_start": 204,
+          "offset_end": 259
         },
         {
           "name": "subject",
           "value": {
             "Text": "Die Hasen und die Frösche (Netscape Messenger 4.7)"
           },
-          "offset_field": 266,
-          "offset_start": 274,
-          "offset_end": 346
+          "offset_field": 259,
+          "offset_start": 267,
+          "offset_end": 338
         },
         {
           "name": "content_type",
@@ -132,9 +132,9 @@
               ]
             }
           },
-          "offset_field": 346,
-          "offset_start": 359,
-          "offset_end": 428
+          "offset_field": 338,
+          "offset_start": 351,
+          "offset_end": 418
         }
       ],
       "is_encoding_problem": false,
@@ -146,8 +146,8 @@
         ]
       },
       "offset_header": 0,
-      "offset_body": 430,
-      "offset_end": 11449
+      "offset_body": 419,
+      "offset_end": 11237
     },
     {
       "headers": [
@@ -165,9 +165,9 @@
               ]
             }
           },
-          "offset_field": 516,
-          "offset_start": 529,
-          "offset_end": 604
+          "offset_field": 503,
+          "offset_start": 516,
+          "offset_end": 589
         }
       ],
       "is_encoding_problem": false,
@@ -177,9 +177,9 @@
           3
         ]
       },
-      "offset_header": 516,
-      "offset_body": 606,
-      "offset_end": 7265
+      "offset_header": 503,
+      "offset_body": 590,
+      "offset_end": 7122
     },
     {
       "headers": [
@@ -197,27 +197,27 @@
               ]
             }
           },
-          "offset_field": 648,
-          "offset_start": 661,
-          "offset_end": 694
+          "offset_field": 630,
+          "offset_start": 643,
+          "offset_end": 675
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "quoted-printable"
           },
-          "offset_field": 694,
-          "offset_start": 720,
-          "offset_end": 739
+          "offset_field": 675,
+          "offset_start": 701,
+          "offset_end": 719
         }
       ],
       "is_encoding_problem": false,
       "body": {
-        "Text": "[blue ball]\r\n\r\nDie Hasen und die Frösche\r\n\r\nDie Hasen klagten einst über ihre mißliche Lage; \"wir leben\", sprach ein\r\nRedner, \"in steter Furcht vor Menschen und Tieren, eine Beute der Hunde,\r\nder Adler, ja fast aller Raubtiere! Unsere stete Angst ist ärger als der\r\nTod selbst. Auf, laßt uns ein für allemal sterben.\"\r\n\r\nIn einem nahen Teich wollten sie sich nun ersäufen; sie eilten ihm zu;\r\nallein das außerordentliche Getöse und ihre wunderbare Gestalt\r\nerschreckte eine Menge Frösche, die am Ufer saßen, so sehr, daß sie aufs\r\nschnellste untertauchten.\r\n\r\n\"Halt\", rief nun eben dieser Sprecher, \"wir wollen das Ersäufen noch ein\r\nwenig aufschieben, denn auch uns fürchten, wie ihr seht, einige Tiere,\r\nwelche also wohl noch unglücklicher sein müssen als wir.\"\r\n\r\n[Image]\r\n\r\n\r\n"
+        "Text": "[blue ball]\n\nDie Hasen und die Frösche\n\nDie Hasen klagten einst über ihre mißliche Lage; \"wir leben\", sprach ein\nRedner, \"in steter Furcht vor Menschen und Tieren, eine Beute der Hunde,\nder Adler, ja fast aller Raubtiere! Unsere stete Angst ist ärger als der\nTod selbst. Auf, laßt uns ein für allemal sterben.\"\n\nIn einem nahen Teich wollten sie sich nun ersäufen; sie eilten ihm zu;\nallein das außerordentliche Getöse und ihre wunderbare Gestalt\nerschreckte eine Menge Frösche, die am Ufer saßen, so sehr, daß sie aufs\nschnellste untertauchten.\n\n\"Halt\", rief nun eben dieser Sprecher, \"wir wollen das Ersäufen noch ein\nwenig aufschieben, denn auch uns fürchten, wie ihr seht, einige Tiere,\nwelche also wohl noch unglücklicher sein müssen als wir.\"\n\n[Image]\n\n\n"
       },
-      "offset_header": 648,
-      "offset_body": 741,
-      "offset_end": 1565
+      "offset_header": 630,
+      "offset_body": 720,
+      "offset_end": 1519
     },
     {
       "headers": [
@@ -235,9 +235,9 @@
               ]
             }
           },
-          "offset_field": 1607,
-          "offset_start": 1620,
-          "offset_end": 1691
+          "offset_field": 1559,
+          "offset_start": 1572,
+          "offset_end": 1641
         }
       ],
       "is_encoding_problem": false,
@@ -248,9 +248,9 @@
           6
         ]
       },
-      "offset_header": 1607,
-      "offset_body": 1693,
-      "offset_end": 7221
+      "offset_header": 1559,
+      "offset_body": 1642,
+      "offset_end": 7080
     },
     {
       "headers": [
@@ -268,27 +268,27 @@
               ]
             }
           },
-          "offset_field": 1735,
-          "offset_start": 1748,
-          "offset_end": 1778
+          "offset_field": 1682,
+          "offset_start": 1695,
+          "offset_end": 1724
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "7bit"
           },
-          "offset_field": 1778,
-          "offset_start": 1804,
-          "offset_end": 1811
+          "offset_field": 1724,
+          "offset_start": 1750,
+          "offset_end": 1756
         }
       ],
       "is_encoding_problem": false,
       "body": {
-        "Html": "<!doctype html public \"-//w3c//dtd html 4.0 transitional//en\">\r\n<html>\r\n<img SRC=\"cid:part1.39235FC5.E71D8178@example.com\" ALT=\"blue ball\" height=27 width=27><b></b>\r\n<p><b>Die Hasen und die Fr&ouml;sche</b>\r\n<p>Die Hasen klagten einst &uuml;ber ihre mi&szlig;liche Lage; \"wir leben\",\r\nsprach ein Redner, \"in steter Furcht vor Menschen und Tieren, eine Beute\r\nder Hunde, der Adler, ja fast aller Raubtiere! Unsere stete Angst ist &auml;rger\r\nals der Tod selbst. Auf, la&szlig;t uns ein f&uuml;r allemal sterben.\"\r\n<p>In einem nahen Teich wollten sie sich nun ers&auml;ufen; sie eilten\r\nihm zu; allein das au&szlig;erordentliche Get&ouml;se und ihre wunderbare\r\nGestalt erschreckte eine Menge Fr&ouml;sche, die am Ufer sa&szlig;en, so\r\nsehr, da&szlig; sie aufs schnellste untertauchten.\r\n<p>\"Halt\", rief nun eben dieser Sprecher, \"wir wollen das Ers&auml;ufen\r\nnoch ein wenig aufschieben, denn auch uns f&uuml;rchten, wie ihr seht,\r\neinige Tiere, welche also wohl noch ungl&uuml;cklicher sein m&uuml;ssen\r\nals wir.\"\r\n<p><img SRC=\"cid:part2.39235FC5.E71D8178@example.com\" height=27 width=27>\r\n<br>&nbsp;\r\n<br>&nbsp;</html>\r\n"
+        "Html": "<!doctype html public \"-//w3c//dtd html 4.0 transitional//en\">\n<html>\n<img SRC=\"cid:part1.39235FC5.E71D8178@example.com\" ALT=\"blue ball\" height=27 width=27><b></b>\n<p><b>Die Hasen und die Fr&ouml;sche</b>\n<p>Die Hasen klagten einst &uuml;ber ihre mi&szlig;liche Lage; \"wir leben\",\nsprach ein Redner, \"in steter Furcht vor Menschen und Tieren, eine Beute\nder Hunde, der Adler, ja fast aller Raubtiere! Unsere stete Angst ist &auml;rger\nals der Tod selbst. Auf, la&szlig;t uns ein f&uuml;r allemal sterben.\"\n<p>In einem nahen Teich wollten sie sich nun ers&auml;ufen; sie eilten\nihm zu; allein das au&szlig;erordentliche Get&ouml;se und ihre wunderbare\nGestalt erschreckte eine Menge Fr&ouml;sche, die am Ufer sa&szlig;en, so\nsehr, da&szlig; sie aufs schnellste untertauchten.\n<p>\"Halt\", rief nun eben dieser Sprecher, \"wir wollen das Ers&auml;ufen\nnoch ein wenig aufschieben, denn auch uns f&uuml;rchten, wie ihr seht,\neinige Tiere, welche also wohl noch ungl&uuml;cklicher sein m&uuml;ssen\nals wir.\"\n<p><img SRC=\"cid:part2.39235FC5.E71D8178@example.com\" height=27 width=27>\n<br>&nbsp;\n<br>&nbsp;</html>\n"
       },
-      "offset_header": 1735,
-      "offset_body": 1813,
-      "offset_end": 2935
+      "offset_header": 1682,
+      "offset_body": 1757,
+      "offset_end": 2860
     },
     {
       "headers": [
@@ -301,27 +301,27 @@
               "attributes": null
             }
           },
-          "offset_field": 2977,
-          "offset_start": 2990,
-          "offset_end": 3002
+          "offset_field": 2900,
+          "offset_start": 2913,
+          "offset_end": 2924
         },
         {
           "name": "content_id",
           "value": {
             "Text": "part1.39235FC5.E71D8178@example.com"
           },
-          "offset_field": 3002,
-          "offset_start": 3013,
-          "offset_end": 3053
+          "offset_field": 2924,
+          "offset_start": 2935,
+          "offset_end": 2974
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "base64"
           },
-          "offset_field": 3053,
-          "offset_start": 3079,
-          "offset_end": 3088
+          "offset_field": 2974,
+          "offset_start": 3000,
+          "offset_end": 3008
         },
         {
           "name": "content_disposition",
@@ -337,9 +337,9 @@
               ]
             }
           },
-          "offset_field": 3088,
-          "offset_start": 3108,
-          "offset_end": 3150
+          "offset_field": 3008,
+          "offset_start": 3028,
+          "offset_end": 3069
         }
       ],
       "is_encoding_problem": false,
@@ -1672,9 +1672,9 @@
           130
         ]
       },
-      "offset_header": 2977,
-      "offset_body": 3152,
-      "offset_end": 4968
+      "offset_header": 2900,
+      "offset_body": 3070,
+      "offset_end": 4862
     },
     {
       "headers": [
@@ -1687,27 +1687,27 @@
               "attributes": null
             }
           },
-          "offset_field": 5010,
-          "offset_start": 5023,
-          "offset_end": 5035
+          "offset_field": 4902,
+          "offset_start": 4915,
+          "offset_end": 4926
         },
         {
           "name": "content_id",
           "value": {
             "Text": "part2.39235FC5.E71D8178@example.com"
           },
-          "offset_field": 5035,
-          "offset_start": 5046,
-          "offset_end": 5086
+          "offset_field": 4926,
+          "offset_start": 4937,
+          "offset_end": 4976
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "base64"
           },
-          "offset_field": 5086,
-          "offset_start": 5112,
-          "offset_end": 5121
+          "offset_field": 4976,
+          "offset_start": 5002,
+          "offset_end": 5010
         },
         {
           "name": "content_disposition",
@@ -1723,9 +1723,9 @@
               ]
             }
           },
-          "offset_field": 5121,
-          "offset_start": 5141,
-          "offset_end": 5183
+          "offset_field": 5010,
+          "offset_start": 5030,
+          "offset_end": 5071
         }
       ],
       "is_encoding_problem": false,
@@ -3186,9 +3186,9 @@
           130
         ]
       },
-      "offset_header": 5010,
-      "offset_body": 5185,
-      "offset_end": 7177
+      "offset_header": 4902,
+      "offset_body": 5072,
+      "offset_end": 7038
     },
     {
       "headers": [
@@ -3206,18 +3206,18 @@
               ]
             }
           },
-          "offset_field": 7307,
-          "offset_start": 7320,
-          "offset_end": 7354
+          "offset_field": 7162,
+          "offset_start": 7175,
+          "offset_end": 7207
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "base64"
           },
-          "offset_field": 7354,
-          "offset_start": 7380,
-          "offset_end": 7389
+          "offset_field": 7207,
+          "offset_start": 7233,
+          "offset_end": 7241
         },
         {
           "name": "content_disposition",
@@ -3233,9 +3233,9 @@
               ]
             }
           },
-          "offset_field": 7389,
-          "offset_start": 7409,
-          "offset_end": 7444
+          "offset_field": 7241,
+          "offset_start": 7261,
+          "offset_end": 7294
         }
       ],
       "is_encoding_problem": false,
@@ -4696,9 +4696,9 @@
           130
         ]
       },
-      "offset_header": 7307,
-      "offset_body": 7446,
-      "offset_end": 9438
+      "offset_header": 7162,
+      "offset_body": 7295,
+      "offset_end": 9261
     },
     {
       "headers": [
@@ -4716,18 +4716,18 @@
               ]
             }
           },
-          "offset_field": 9480,
-          "offset_start": 9493,
-          "offset_end": 9529
+          "offset_field": 9301,
+          "offset_start": 9314,
+          "offset_end": 9348
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "base64"
           },
-          "offset_field": 9529,
-          "offset_start": 9555,
-          "offset_end": 9564
+          "offset_field": 9348,
+          "offset_start": 9374,
+          "offset_end": 9382
         },
         {
           "name": "content_disposition",
@@ -4743,9 +4743,9 @@
               ]
             }
           },
-          "offset_field": 9564,
-          "offset_start": 9584,
-          "offset_end": 9621
+          "offset_field": 9382,
+          "offset_start": 9402,
+          "offset_end": 9437
         }
       ],
       "is_encoding_problem": false,
@@ -6051,9 +6051,9 @@
           130
         ]
       },
-      "offset_header": 9480,
-      "offset_body": 9623,
-      "offset_end": 11403
+      "offset_header": 9301,
+      "offset_body": 9438,
+      "offset_end": 11194
     }
   ]
 }

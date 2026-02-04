@@ -27,7 +27,7 @@
           },
           "offset_field": 0,
           "offset_start": 5,
-          "offset_end": 40
+          "offset_end": 39
         },
         {
           "name": "to",
@@ -41,18 +41,18 @@
               ]
             }
           },
-          "offset_field": 40,
-          "offset_start": 43,
-          "offset_end": 99
+          "offset_field": 39,
+          "offset_start": 42,
+          "offset_end": 97
         },
         {
           "name": "subject",
           "value": {
             "Text": "Test message from Microsoft Outlook 00"
           },
-          "offset_field": 99,
-          "offset_start": 107,
-          "offset_end": 148
+          "offset_field": 97,
+          "offset_start": 105,
+          "offset_end": 145
         },
         {
           "name": "date",
@@ -69,27 +69,27 @@
               "tz_minute": 0
             }
           },
-          "offset_field": 148,
-          "offset_start": 153,
-          "offset_end": 187
+          "offset_field": 145,
+          "offset_start": 150,
+          "offset_end": 183
         },
         {
           "name": "message_id",
           "value": {
             "Text": "NDBBIAKOPKHFGPLCODIGGEKECHAA.doug@example.com"
           },
-          "offset_field": 187,
-          "offset_start": 198,
-          "offset_end": 248
+          "offset_field": 183,
+          "offset_start": 194,
+          "offset_end": 243
         },
         {
           "name": "mime_version",
           "value": {
             "Text": "1.0"
           },
-          "offset_field": 248,
-          "offset_start": 261,
-          "offset_end": 267
+          "offset_field": 243,
+          "offset_start": 256,
+          "offset_end": 261
         },
         {
           "name": "content_type",
@@ -105,9 +105,9 @@
               ]
             }
           },
-          "offset_field": 267,
-          "offset_start": 280,
-          "offset_end": 354
+          "offset_field": 261,
+          "offset_start": 274,
+          "offset_end": 346
         },
         {
           "name": {
@@ -116,9 +116,9 @@
           "value": {
             "Text": "3 (Normal)"
           },
-          "offset_field": 354,
-          "offset_start": 365,
-          "offset_end": 378
+          "offset_field": 346,
+          "offset_start": 357,
+          "offset_end": 369
         },
         {
           "name": {
@@ -127,9 +127,9 @@
           "value": {
             "Text": "Normal"
           },
-          "offset_field": 378,
-          "offset_start": 396,
-          "offset_end": 405
+          "offset_field": 369,
+          "offset_start": 387,
+          "offset_end": 395
         },
         {
           "name": {
@@ -138,9 +138,9 @@
           "value": {
             "Text": "Microsoft Outlook IMO, Build 9.0.2416 (9.0.2910.0)"
           },
-          "offset_field": 405,
-          "offset_start": 414,
-          "offset_end": 467
+          "offset_field": 395,
+          "offset_start": 404,
+          "offset_end": 456
         },
         {
           "name": {
@@ -149,9 +149,9 @@
           "value": {
             "Text": "Normal"
           },
-          "offset_field": 467,
-          "offset_start": 478,
-          "offset_end": 487
+          "offset_field": 456,
+          "offset_start": 467,
+          "offset_end": 475
         },
         {
           "name": {
@@ -160,9 +160,9 @@
           "value": {
             "Text": "Produced By Microsoft MimeOLE V5.00.2314.1300"
           },
-          "offset_field": 487,
-          "offset_start": 497,
-          "offset_end": 545
+          "offset_field": 475,
+          "offset_start": 485,
+          "offset_end": 532
         }
       ],
       "is_encoding_problem": false,
@@ -175,8 +175,8 @@
         ]
       },
       "offset_header": 0,
-      "offset_body": 547,
-      "offset_end": 7747
+      "offset_body": 533,
+      "offset_end": 7612
     },
     {
       "headers": [
@@ -194,27 +194,27 @@
               ]
             }
           },
-          "offset_field": 640,
-          "offset_start": 653,
-          "offset_end": 690
+          "offset_field": 623,
+          "offset_start": 636,
+          "offset_end": 671
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "quoted-printable"
           },
-          "offset_field": 690,
-          "offset_start": 716,
-          "offset_end": 735
+          "offset_field": 671,
+          "offset_start": 697,
+          "offset_end": 715
         }
       ],
       "is_encoding_problem": false,
       "body": {
-        "Text": "\r\nThe Hare and the Tortoise \r\n \r\nA HARE one day ridiculed the short feet and slow pace of the Tortoise, who replied, laughing:  \"Though you be swift as the wind, I will beat you in a race.\"  The Hare, believing her assertion to be simply impossible, assented to the proposal; and they agreed that the Fox should choose the course and fix the goal.  On the day appointed for the race the two started together.  The Tortoise never for a moment stopped, but went on with a slow but steady pace straight to the end of the course.  The Hare, lying down by the wayside, fell fast asleep.  At last waking up, and moving as fast as he could, he saw the Tortoise had reached the goal, and was comfortably dozing after her fatigue.  \r\n \r\nSlow but steady wins the race.  \r\n"
+        "Text": "\nThe Hare and the Tortoise \n \nA HARE one day ridiculed the short feet and slow pace of the Tortoise, who replied, laughing:  \"Though you be swift as the wind, I will beat you in a race.\"  The Hare, believing her assertion to be simply impossible, assented to the proposal; and they agreed that the Fox should choose the course and fix the goal.  On the day appointed for the race the two started together.  The Tortoise never for a moment stopped, but went on with a slow but steady pace straight to the end of the course.  The Hare, lying down by the wayside, fell fast asleep.  At last waking up, and moving as fast as he could, he saw the Tortoise had reached the goal, and was comfortably dozing after her fatigue.  \n \nSlow but steady wins the race.  \n"
       },
-      "offset_header": 640,
-      "offset_body": 737,
-      "offset_end": 1536
+      "offset_header": 623,
+      "offset_body": 716,
+      "offset_end": 1500
     },
     {
       "headers": [
@@ -232,18 +232,18 @@
               ]
             }
           },
-          "offset_field": 1583,
-          "offset_start": 1596,
-          "offset_end": 1631
+          "offset_field": 1545,
+          "offset_start": 1558,
+          "offset_end": 1591
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "base64"
           },
-          "offset_field": 1631,
-          "offset_start": 1657,
-          "offset_end": 1666
+          "offset_field": 1591,
+          "offset_start": 1617,
+          "offset_end": 1625
         },
         {
           "name": "content_disposition",
@@ -259,9 +259,9 @@
               ]
             }
           },
-          "offset_field": 1666,
-          "offset_start": 1686,
-          "offset_end": 1726
+          "offset_field": 1625,
+          "offset_start": 1645,
+          "offset_end": 1683
         }
       ],
       "is_encoding_problem": false,
@@ -1594,9 +1594,9 @@
           130
         ]
       },
-      "offset_header": 1583,
-      "offset_body": 1728,
-      "offset_end": 3544
+      "offset_header": 1545,
+      "offset_body": 1684,
+      "offset_end": 3476
     },
     {
       "headers": [
@@ -1614,18 +1614,18 @@
               ]
             }
           },
-          "offset_field": 3591,
-          "offset_start": 3604,
-          "offset_end": 3640
+          "offset_field": 3521,
+          "offset_start": 3534,
+          "offset_end": 3568
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "base64"
           },
-          "offset_field": 3640,
-          "offset_start": 3666,
-          "offset_end": 3675
+          "offset_field": 3568,
+          "offset_start": 3594,
+          "offset_end": 3602
         },
         {
           "name": "content_disposition",
@@ -1641,9 +1641,9 @@
               ]
             }
           },
-          "offset_field": 3675,
-          "offset_start": 3695,
-          "offset_end": 3736
+          "offset_field": 3602,
+          "offset_start": 3622,
+          "offset_end": 3661
         }
       ],
       "is_encoding_problem": false,
@@ -2949,9 +2949,9 @@
           130
         ]
       },
-      "offset_header": 3591,
-      "offset_body": 3738,
-      "offset_end": 5516
+      "offset_header": 3521,
+      "offset_body": 3662,
+      "offset_end": 5417
     },
     {
       "headers": [
@@ -2969,18 +2969,18 @@
               ]
             }
           },
-          "offset_field": 5563,
-          "offset_start": 5576,
-          "offset_end": 5610
+          "offset_field": 5462,
+          "offset_start": 5475,
+          "offset_end": 5507
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "base64"
           },
-          "offset_field": 5610,
-          "offset_start": 5636,
-          "offset_end": 5645
+          "offset_field": 5507,
+          "offset_start": 5533,
+          "offset_end": 5541
         },
         {
           "name": "content_disposition",
@@ -2996,9 +2996,9 @@
               ]
             }
           },
-          "offset_field": 5645,
-          "offset_start": 5665,
-          "offset_end": 5704
+          "offset_field": 5541,
+          "offset_start": 5561,
+          "offset_end": 5598
         }
       ],
       "is_encoding_problem": false,
@@ -4459,9 +4459,9 @@
           130
         ]
       },
-      "offset_header": 5563,
-      "offset_body": 5706,
-      "offset_end": 7698
+      "offset_header": 5462,
+      "offset_body": 5599,
+      "offset_end": 7565
     }
   ]
 }

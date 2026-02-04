@@ -25,25 +25,25 @@
           },
           "offset_field": 0,
           "offset_start": 13,
-          "offset_end": 52
+          "offset_end": 50
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "quoted-printable"
           },
-          "offset_field": 52,
-          "offset_start": 78,
-          "offset_end": 97
+          "offset_field": 50,
+          "offset_start": 76,
+          "offset_end": 94
         },
         {
           "name": "mime_version",
           "value": {
             "Text": "1.0"
           },
-          "offset_field": 97,
-          "offset_start": 110,
-          "offset_end": 116
+          "offset_field": 94,
+          "offset_start": 107,
+          "offset_end": 112
         }
       ],
       "is_encoding_problem": true,
@@ -51,8 +51,8 @@
         "Text": "Best\nEnviado desde mi BlackBerry=AE de Vodafone=\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n</dict>\n</plist>"
       },
       "offset_header": 0,
-      "offset_body": 118,
-      "offset_end": 354
+      "offset_body": 113,
+      "offset_end": 349
     }
   ]
 }

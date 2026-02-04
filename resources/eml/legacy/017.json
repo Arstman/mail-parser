@@ -19,7 +19,7 @@
           },
           "offset_field": 0,
           "offset_start": 11,
-          "offset_end": 64
+          "offset_end": 63
         },
         {
           "name": {
@@ -28,9 +28,9 @@
           "value": {
             "Text": "dwsauder@pop.example.com (Unverified)"
           },
-          "offset_field": 64,
-          "offset_start": 73,
-          "offset_end": 113
+          "offset_field": 63,
+          "offset_start": 72,
+          "offset_end": 111
         },
         {
           "name": {
@@ -39,9 +39,9 @@
           "value": {
             "Text": "QUALCOMM Windows Eudora Pro Version 4.2.0.58"
           },
-          "offset_field": 113,
-          "offset_start": 122,
-          "offset_end": 170
+          "offset_field": 111,
+          "offset_start": 120,
+          "offset_end": 167
         },
         {
           "name": "date",
@@ -58,9 +58,9 @@
               "tz_minute": 0
             }
           },
-          "offset_field": 170,
-          "offset_start": 175,
-          "offset_end": 209
+          "offset_field": 167,
+          "offset_start": 172,
+          "offset_end": 205
         },
         {
           "name": "to",
@@ -74,9 +74,9 @@
               ]
             }
           },
-          "offset_field": 209,
-          "offset_start": 212,
-          "offset_end": 257
+          "offset_field": 205,
+          "offset_start": 208,
+          "offset_end": 252
         },
         {
           "name": "from",
@@ -90,27 +90,27 @@
               ]
             }
           },
-          "offset_field": 257,
-          "offset_start": 262,
-          "offset_end": 299
+          "offset_field": 252,
+          "offset_start": 257,
+          "offset_end": 293
         },
         {
           "name": "subject",
           "value": {
             "Text": "The Hare and the Tortoise"
           },
-          "offset_field": 299,
-          "offset_start": 307,
-          "offset_end": 335
+          "offset_field": 293,
+          "offset_start": 301,
+          "offset_end": 328
         },
         {
           "name": "mime_version",
           "value": {
             "Text": "1.0"
           },
-          "offset_field": 335,
-          "offset_start": 348,
-          "offset_end": 354
+          "offset_field": 328,
+          "offset_start": 341,
+          "offset_end": 346
         },
         {
           "name": "content_type",
@@ -126,9 +126,9 @@
               ]
             }
           },
-          "offset_field": 354,
-          "offset_start": 367,
-          "offset_end": 434
+          "offset_field": 346,
+          "offset_start": 359,
+          "offset_end": 424
         }
       ],
       "is_encoding_problem": false,
@@ -140,8 +140,8 @@
         ]
       },
       "offset_header": 0,
-      "offset_body": 436,
-      "offset_end": 5448
+      "offset_body": 425,
+      "offset_end": 5346
     },
     {
       "headers": [
@@ -159,18 +159,18 @@
               ]
             }
           },
-          "offset_field": 474,
-          "offset_start": 487,
-          "offset_end": 520
+          "offset_field": 462,
+          "offset_start": 475,
+          "offset_end": 507
         }
       ],
       "is_encoding_problem": false,
       "body": {
-        "Text": "\r\nThe Hare and the Tortoise \r\n  \r\nA HARE one day ridiculed the short feet and slow pace of the Tortoise, who replied, laughing:  \"Though you be swift as the wind, I will beat you in a race.\"  The Hare, believing her assertion to be simply impossible, assented to the proposal; and they agreed that the Fox should choose the course and fix the goal.  On the day appointed for the race the two started together.  The Tortoise never for a moment stopped, but went on with a slow but steady pace straight to the end of the course.  The Hare, lying down by the wayside, fell fast asleep.  At last waking up, and moving as fast as he could, he saw the Tortoise had reached the goal, and was comfortably dozing after her fatigue.  \r\n  \r\nSlow but steady wins the race.  \r\n"
+        "Text": "\nThe Hare and the Tortoise \n  \nA HARE one day ridiculed the short feet and slow pace of the Tortoise, who replied, laughing:  \"Though you be swift as the wind, I will beat you in a race.\"  The Hare, believing her assertion to be simply impossible, assented to the proposal; and they agreed that the Fox should choose the course and fix the goal.  On the day appointed for the race the two started together.  The Tortoise never for a moment stopped, but went on with a slow but steady pace straight to the end of the course.  The Hare, lying down by the wayside, fell fast asleep.  At last waking up, and moving as fast as he could, he saw the Tortoise had reached the goal, and was comfortably dozing after her fatigue.  \n  \nSlow but steady wins the race.  \n"
       },
-      "offset_header": 474,
-      "offset_body": 522,
-      "offset_end": 1286
+      "offset_header": 462,
+      "offset_body": 508,
+      "offset_end": 1266
     },
     {
       "headers": [
@@ -188,18 +188,18 @@
               ]
             }
           },
-          "offset_field": 1326,
-          "offset_start": 1339,
-          "offset_end": 1373
+          "offset_field": 1304,
+          "offset_start": 1317,
+          "offset_end": 1350
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "x-uuencode"
           },
-          "offset_field": 1373,
-          "offset_start": 1399,
-          "offset_end": 1412
+          "offset_field": 1350,
+          "offset_start": 1376,
+          "offset_end": 1388
         },
         {
           "name": "content_disposition",
@@ -215,15 +215,14 @@
               ]
             }
           },
-          "offset_field": 1412,
-          "offset_start": 1432,
-          "offset_end": 1471
+          "offset_field": 1388,
+          "offset_start": 1408,
+          "offset_end": 1446
         }
       ],
       "is_encoding_problem": false,
       "body": {
         "Binary": [
-          13,
           10,
           98,
           101,
@@ -248,7 +247,6 @@
           112,
           110,
           103,
-          13,
           10,
           77,
           66,
@@ -311,7 +309,6 @@
           95,
           92,
           96,
-          13,
           10,
           77,
           96,
@@ -374,7 +371,6 @@
           80,
           96,
           96,
-          13,
           10,
           77,
           46,
@@ -437,7 +433,6 @@
           48,
           96,
           65,
-          13,
           10,
           77,
           79,
@@ -500,7 +495,6 @@
           82,
           36,
           65,
-          13,
           10,
           77,
           87,
@@ -563,7 +557,6 @@
           82,
           37,
           75,
-          13,
           10,
           77,
           91,
@@ -626,7 +619,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -689,7 +681,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -752,7 +743,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -815,7 +805,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -878,7 +867,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -941,7 +929,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -1004,7 +991,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -1067,7 +1053,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -1130,7 +1115,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -1193,7 +1177,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -1256,7 +1239,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -1319,7 +1301,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -1382,7 +1363,6 @@
           96,
           96,
           73,
-          13,
           10,
           77,
           85,
@@ -1445,7 +1425,6 @@
           67,
           96,
           78,
-          13,
           10,
           77,
           44,
@@ -1508,7 +1487,6 @@
           95,
           94,
           57,
-          13,
           10,
           77,
           66,
@@ -1571,7 +1549,6 @@
           46,
           50,
           60,
-          13,
           10,
           77,
           65,
@@ -1634,7 +1611,6 @@
           51,
           51,
           43,
-          13,
           10,
           77,
           34,
@@ -1697,7 +1673,6 @@
           68,
           96,
           54,
-          13,
           10,
           77,
           57,
@@ -1760,7 +1735,6 @@
           82,
           41,
           53,
-          13,
           10,
           77,
           38,
@@ -1823,7 +1797,6 @@
           53,
           50,
           41,
-          13,
           10,
           77,
           54,
@@ -1886,7 +1859,6 @@
           65,
           61,
           62,
-          13,
           10,
           77,
           48,
@@ -1949,7 +1921,6 @@
           61,
           75,
           95,
-          13,
           10,
           77,
           74,
@@ -2012,7 +1983,6 @@
           70,
           61,
           73,
-          13,
           10,
           70,
           57,
@@ -2067,21 +2037,18 @@
           40,
           40,
           96,
-          13,
           10,
           96,
-          13,
           10,
           101,
           110,
           100,
-          13,
           10
         ]
       },
-      "offset_header": 1326,
-      "offset_body": 1473,
-      "offset_end": 3327
+      "offset_header": 1304,
+      "offset_body": 1447,
+      "offset_end": 3268
     },
     {
       "headers": [
@@ -2099,18 +2066,18 @@
               ]
             }
           },
-          "offset_field": 3367,
-          "offset_start": 3380,
-          "offset_end": 3413
+          "offset_field": 3306,
+          "offset_start": 3319,
+          "offset_end": 3351
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "x-uuencode"
           },
-          "offset_field": 3413,
-          "offset_start": 3439,
-          "offset_end": 3452
+          "offset_field": 3351,
+          "offset_start": 3377,
+          "offset_end": 3389
         },
         {
           "name": "content_disposition",
@@ -2126,15 +2093,14 @@
               ]
             }
           },
-          "offset_field": 3452,
-          "offset_start": 3472,
-          "offset_end": 3510
+          "offset_field": 3389,
+          "offset_start": 3409,
+          "offset_end": 3446
         }
       ],
       "is_encoding_problem": false,
       "body": {
         "Binary": [
-          13,
           10,
           98,
           101,
@@ -2158,7 +2124,6 @@
           112,
           110,
           103,
-          13,
           10,
           77,
           66,
@@ -2221,7 +2186,6 @@
           95,
           92,
           96,
-          13,
           10,
           77,
           96,
@@ -2284,7 +2248,6 @@
           35,
           68,
           40,
-          13,
           10,
           77,
           40,
@@ -2347,7 +2310,6 @@
           76,
           88,
           56,
-          13,
           10,
           77,
           48,
@@ -2410,7 +2372,6 @@
           78,
           93,
           50,
-          13,
           10,
           77,
           65,
@@ -2473,7 +2434,6 @@
           76,
           58,
           44,
-          13,
           10,
           77,
           79,
@@ -2536,7 +2496,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -2599,7 +2558,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -2662,7 +2620,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -2725,7 +2682,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -2788,7 +2744,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -2851,7 +2806,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -2914,7 +2868,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -2977,7 +2930,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -3040,7 +2992,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -3103,7 +3054,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -3166,7 +3116,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -3229,7 +3178,6 @@
           96,
           96,
           96,
-          13,
           10,
           77,
           96,
@@ -3292,7 +3240,6 @@
           96,
           35,
           33,
-          13,
           10,
           77,
           44,
@@ -3355,7 +3302,6 @@
           67,
           96,
           78,
-          13,
           10,
           77,
           44,
@@ -3418,7 +3364,6 @@
           38,
           95,
           59,
-          13,
           10,
           77,
           63,
@@ -3481,7 +3426,6 @@
           75,
           36,
           72,
-          13,
           10,
           77,
           48,
@@ -3544,7 +3488,6 @@
           77,
           71,
           73,
-          13,
           10,
           77,
           43,
@@ -3607,7 +3550,6 @@
           73,
           39,
           55,
-          13,
           10,
           77,
           47,
@@ -3670,7 +3612,6 @@
           42,
           95,
           44,
-          13,
           10,
           77,
           67,
@@ -3733,7 +3674,6 @@
           60,
           43,
           92,
-          13,
           10,
           77,
           94,
@@ -3796,7 +3736,6 @@
           79,
           54,
           36,
-          13,
           10,
           77,
           85,
@@ -3859,7 +3798,6 @@
           55,
           88,
           86,
-          13,
           10,
           77,
           56,
@@ -3922,7 +3860,6 @@
           44,
           83,
           56,
-          13,
           10,
           77,
           70,
@@ -3985,7 +3922,6 @@
           37,
           33,
           73,
-          13,
           10,
           52,
           57,
@@ -4016,21 +3952,18 @@
           40,
           40,
           96,
-          13,
           10,
           96,
-          13,
           10,
           101,
           110,
           100,
-          13,
           10
         ]
       },
-      "offset_header": 3367,
-      "offset_body": 3512,
-      "offset_end": 5404
+      "offset_header": 3306,
+      "offset_body": 3447,
+      "offset_end": 5305
     }
   ]
 }

@@ -16,7 +16,7 @@
           },
           "offset_field": 0,
           "offset_start": 11,
-          "offset_end": 45
+          "offset_end": 44
         },
         {
           "name": "date",
@@ -33,9 +33,9 @@
               "tz_minute": 0
             }
           },
-          "offset_field": 45,
-          "offset_start": 50,
-          "offset_end": 84
+          "offset_field": 44,
+          "offset_start": 49,
+          "offset_end": 82
         },
         {
           "name": "from",
@@ -49,9 +49,9 @@
               ]
             }
           },
-          "offset_field": 84,
-          "offset_start": 89,
-          "offset_end": 126
+          "offset_field": 82,
+          "offset_start": 87,
+          "offset_end": 123
         },
         {
           "name": {
@@ -60,9 +60,9 @@
           "value": {
             "Text": "Mozilla 4.7 [en] (WinNT; I)"
           },
-          "offset_field": 126,
-          "offset_start": 135,
-          "offset_end": 165
+          "offset_field": 123,
+          "offset_start": 132,
+          "offset_end": 161
         },
         {
           "name": {
@@ -71,18 +71,18 @@
           "value": {
             "Text": "en"
           },
-          "offset_field": 165,
-          "offset_start": 183,
-          "offset_end": 188
+          "offset_field": 161,
+          "offset_start": 179,
+          "offset_end": 183
         },
         {
           "name": "mime_version",
           "value": {
             "Text": "1.0"
           },
-          "offset_field": 188,
-          "offset_start": 201,
-          "offset_end": 207
+          "offset_field": 183,
+          "offset_start": 196,
+          "offset_end": 201
         },
         {
           "name": "to",
@@ -96,18 +96,18 @@
               ]
             }
           },
-          "offset_field": 207,
-          "offset_start": 210,
-          "offset_end": 240
+          "offset_field": 201,
+          "offset_start": 204,
+          "offset_end": 233
         },
         {
           "name": "subject",
           "value": {
             "Text": "Test message from Netscape Communicator 4.7"
           },
-          "offset_field": 240,
-          "offset_start": 248,
-          "offset_end": 294
+          "offset_field": 233,
+          "offset_start": 241,
+          "offset_end": 286
         },
         {
           "name": "content_type",
@@ -123,27 +123,27 @@
               ]
             }
           },
-          "offset_field": 294,
-          "offset_start": 307,
-          "offset_end": 338
+          "offset_field": 286,
+          "offset_start": 299,
+          "offset_end": 329
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "7bit"
           },
-          "offset_field": 338,
-          "offset_start": 364,
-          "offset_end": 371
+          "offset_field": 329,
+          "offset_start": 355,
+          "offset_end": 361
         }
       ],
       "is_encoding_problem": false,
       "body": {
-        "Text": "\r\nThe Hare and the Tortoise \r\n \r\nA HARE one day ridiculed the short feet and slow pace of the Tortoise, who replied, laughing:  \"Though you be swift as the wind, I will beat you in a race.\"  The Hare, believing her assertion to be simply impossible, assented to the proposal; and they agreed that the Fox should choose the course and fix the goal.  On the day appointed for the race the two started together.  The Tortoise never for a moment stopped, but went on with a slow but steady pace straight to the end of the course.  The Hare, lying down by the wayside, fell fast asleep.  At last waking up, and moving as fast as he could, he saw the Tortoise had reached the goal, and was comfortably dozing after her fatigue.  \r\n \r\nSlow but steady wins the race.\r\n"
+        "Text": "\nThe Hare and the Tortoise \n \nA HARE one day ridiculed the short feet and slow pace of the Tortoise, who replied, laughing:  \"Though you be swift as the wind, I will beat you in a race.\"  The Hare, believing her assertion to be simply impossible, assented to the proposal; and they agreed that the Fox should choose the course and fix the goal.  On the day appointed for the race the two started together.  The Tortoise never for a moment stopped, but went on with a slow but steady pace straight to the end of the course.  The Hare, lying down by the wayside, fell fast asleep.  At last waking up, and moving as fast as he could, he saw the Tortoise had reached the goal, and was comfortably dozing after her fatigue.  \n \nSlow but steady wins the race.\n"
       },
       "offset_header": 0,
-      "offset_body": 373,
-      "offset_end": 1133
+      "offset_body": 362,
+      "offset_end": 1116
     }
   ]
 }

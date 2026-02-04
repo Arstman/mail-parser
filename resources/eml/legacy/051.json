@@ -21,7 +21,7 @@
           },
           "offset_field": 0,
           "offset_start": 11,
-          "offset_end": 64
+          "offset_end": 63
         },
         {
           "name": {
@@ -30,9 +30,9 @@
           "value": {
             "Text": "dwsauder@pop.example.com (Unverified)"
           },
-          "offset_field": 64,
-          "offset_start": 73,
-          "offset_end": 113
+          "offset_field": 63,
+          "offset_start": 72,
+          "offset_end": 111
         },
         {
           "name": {
@@ -41,9 +41,9 @@
           "value": {
             "Text": "QUALCOMM Windows Eudora Pro Version 4.2.0.58"
           },
-          "offset_field": 113,
-          "offset_start": 122,
-          "offset_end": 170
+          "offset_field": 111,
+          "offset_start": 120,
+          "offset_end": 167
         },
         {
           "name": {
@@ -52,9 +52,9 @@
           "value": {
             "Text": "2 (High)"
           },
-          "offset_field": 170,
-          "offset_start": 181,
-          "offset_end": 192
+          "offset_field": 167,
+          "offset_start": 178,
+          "offset_end": 188
         },
         {
           "name": "date",
@@ -71,9 +71,9 @@
               "tz_minute": 0
             }
           },
-          "offset_field": 192,
-          "offset_start": 197,
-          "offset_end": 231
+          "offset_field": 188,
+          "offset_start": 193,
+          "offset_end": 226
         },
         {
           "name": "to",
@@ -87,9 +87,9 @@
               ]
             }
           },
-          "offset_field": 231,
-          "offset_start": 234,
-          "offset_end": 288
+          "offset_field": 226,
+          "offset_start": 229,
+          "offset_end": 282
         },
         {
           "name": "from",
@@ -103,27 +103,27 @@
               ]
             }
           },
-          "offset_field": 288,
-          "offset_start": 293,
-          "offset_end": 330
+          "offset_field": 282,
+          "offset_start": 287,
+          "offset_end": 323
         },
         {
           "name": "subject",
           "value": {
             "Text": "Die Hasen und die Frösche"
           },
-          "offset_field": 330,
-          "offset_start": 338,
-          "offset_end": 383
+          "offset_field": 323,
+          "offset_start": 331,
+          "offset_end": 375
         },
         {
           "name": "mime_version",
           "value": {
             "Text": "1.0"
           },
-          "offset_field": 383,
-          "offset_start": 396,
-          "offset_end": 402
+          "offset_field": 375,
+          "offset_start": 388,
+          "offset_end": 393
         },
         {
           "name": "content_type",
@@ -139,9 +139,9 @@
               ]
             }
           },
-          "offset_field": 402,
-          "offset_start": 415,
-          "offset_end": 482
+          "offset_field": 393,
+          "offset_start": 406,
+          "offset_end": 471
         }
       ],
       "is_encoding_problem": false,
@@ -153,8 +153,8 @@
         ]
       },
       "offset_header": 0,
-      "offset_body": 484,
-      "offset_end": 9943
+      "offset_body": 472,
+      "offset_end": 9782
     },
     {
       "headers": [
@@ -176,9 +176,9 @@
               ]
             }
           },
-          "offset_field": 522,
-          "offset_start": 535,
-          "offset_end": 629
+          "offset_field": 509,
+          "offset_start": 522,
+          "offset_end": 613
         }
       ],
       "is_encoding_problem": false,
@@ -189,9 +189,9 @@
           4
         ]
       },
-      "offset_header": 522,
-      "offset_body": 631,
-      "offset_end": 5945
+      "offset_header": 509,
+      "offset_body": 614,
+      "offset_end": 5844
     },
     {
       "headers": [
@@ -209,27 +209,27 @@
               ]
             }
           },
-          "offset_field": 673,
-          "offset_start": 686,
-          "offset_end": 721
+          "offset_field": 655,
+          "offset_start": 668,
+          "offset_end": 702
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "quoted-printable"
           },
-          "offset_field": 721,
-          "offset_start": 747,
-          "offset_end": 766
+          "offset_field": 702,
+          "offset_start": 728,
+          "offset_end": 746
         }
       ],
       "is_encoding_problem": false,
       "body": {
-        "Text": "Die Hasen und die Frösche\r\n\r\nDie Hasen klagten einst über ihre mißliche Lage; \"wir leben\", sprach ein Redner, \"in steter Furcht vor Menschen und Tieren, eine Beute der Hunde, der Adler, ja fast aller Raubtiere! Unsere stete Angst ist ärger als der Tod selbst. Auf, laßt uns ein für allemal sterben.\" \r\n\r\nIn einem nahen Teich wollten sie sich nun ersäufen; sie eilten ihm zu; allein das außerordentliche Getöse und ihre wunderbare Gestalt erschreckte eine Menge Frösche, die am Ufer saßen, so sehr, daß sie aufs schnellste untertauchten. \r\n\r\n\"Halt\", rief nun eben dieser Sprecher, \"wir wollen das Ersäufen noch ein wenig aufschieben, denn auch uns fürchten, wie ihr seht, einige Tiere, welche also wohl noch unglücklicher sein müssen als wir.\" \r\n\r\n2aa5e03a.png2aa5e044.png"
+        "Text": "Die Hasen und die Frösche\n\nDie Hasen klagten einst über ihre mißliche Lage; \"wir leben\", sprach ein Redner, \"in steter Furcht vor Menschen und Tieren, eine Beute der Hunde, der Adler, ja fast aller Raubtiere! Unsere stete Angst ist ärger als der Tod selbst. Auf, laßt uns ein für allemal sterben.\" \n\nIn einem nahen Teich wollten sie sich nun ersäufen; sie eilten ihm zu; allein das außerordentliche Getöse und ihre wunderbare Gestalt erschreckte eine Menge Frösche, die am Ufer saßen, so sehr, daß sie aufs schnellste untertauchten. \n\n\"Halt\", rief nun eben dieser Sprecher, \"wir wollen das Ersäufen noch ein wenig aufschieben, denn auch uns fürchten, wie ihr seht, einige Tiere, welche also wohl noch unglücklicher sein müssen als wir.\" \n\n2aa5e03a.png2aa5e044.png"
       },
-      "offset_header": 673,
-      "offset_body": 768,
-      "offset_end": 1601
+      "offset_header": 655,
+      "offset_body": 747,
+      "offset_end": 1564
     },
     {
       "headers": [
@@ -247,27 +247,27 @@
               ]
             }
           },
-          "offset_field": 1645,
-          "offset_start": 1658,
-          "offset_end": 1691
+          "offset_field": 1606,
+          "offset_start": 1619,
+          "offset_end": 1651
         },
         {
           "name": "content_id",
           "value": {
             "Text": "4.2.0.58.20000519003903.00a859b0@pop.example.com.2"
           },
-          "offset_field": 1691,
-          "offset_start": 1702,
-          "offset_end": 1757
+          "offset_field": 1651,
+          "offset_start": 1662,
+          "offset_end": 1716
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "base64"
           },
-          "offset_field": 1757,
-          "offset_start": 1783,
-          "offset_end": 1792
+          "offset_field": 1716,
+          "offset_start": 1742,
+          "offset_end": 1750
         },
         {
           "name": "content_disposition",
@@ -283,9 +283,9 @@
               ]
             }
           },
-          "offset_field": 1792,
-          "offset_start": 1812,
-          "offset_end": 1846
+          "offset_field": 1750,
+          "offset_start": 1770,
+          "offset_end": 1803
         }
       ],
       "is_encoding_problem": false,
@@ -1618,9 +1618,9 @@
           130
         ]
       },
-      "offset_header": 1645,
-      "offset_body": 1848,
-      "offset_end": 3662
+      "offset_header": 1606,
+      "offset_body": 1804,
+      "offset_end": 3595
     },
     {
       "headers": [
@@ -1638,27 +1638,27 @@
               ]
             }
           },
-          "offset_field": 3706,
-          "offset_start": 3719,
-          "offset_end": 3752
+          "offset_field": 3637,
+          "offset_start": 3650,
+          "offset_end": 3682
         },
         {
           "name": "content_id",
           "value": {
             "Text": "4.2.0.58.20000519003903.00a859b0@pop.example.com.3"
           },
-          "offset_field": 3752,
-          "offset_start": 3763,
-          "offset_end": 3818
+          "offset_field": 3682,
+          "offset_start": 3693,
+          "offset_end": 3747
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "base64"
           },
-          "offset_field": 3818,
-          "offset_start": 3844,
-          "offset_end": 3853
+          "offset_field": 3747,
+          "offset_start": 3773,
+          "offset_end": 3781
         },
         {
           "name": "content_disposition",
@@ -1674,9 +1674,9 @@
               ]
             }
           },
-          "offset_field": 3853,
-          "offset_start": 3873,
-          "offset_end": 3907
+          "offset_field": 3781,
+          "offset_start": 3801,
+          "offset_end": 3834
         }
       ],
       "is_encoding_problem": false,
@@ -3137,9 +3137,9 @@
           130
         ]
       },
-      "offset_header": 3706,
-      "offset_body": 3909,
-      "offset_end": 5899
+      "offset_header": 3637,
+      "offset_body": 3835,
+      "offset_end": 5800
     },
     {
       "headers": [
@@ -3157,18 +3157,18 @@
               ]
             }
           },
-          "offset_field": 5985,
-          "offset_start": 5998,
-          "offset_end": 6031
+          "offset_field": 5882,
+          "offset_start": 5895,
+          "offset_end": 5927
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "base64"
           },
-          "offset_field": 6031,
-          "offset_start": 6057,
-          "offset_end": 6066
+          "offset_field": 5927,
+          "offset_start": 5953,
+          "offset_end": 5961
         },
         {
           "name": "content_disposition",
@@ -3184,9 +3184,9 @@
               ]
             }
           },
-          "offset_field": 6066,
-          "offset_start": 6086,
-          "offset_end": 6124
+          "offset_field": 5961,
+          "offset_start": 5981,
+          "offset_end": 6018
         }
       ],
       "is_encoding_problem": false,
@@ -4519,9 +4519,9 @@
           130
         ]
       },
-      "offset_header": 5985,
-      "offset_body": 6126,
-      "offset_end": 7940
+      "offset_header": 5882,
+      "offset_body": 6019,
+      "offset_end": 7810
     },
     {
       "headers": [
@@ -4539,18 +4539,18 @@
               ]
             }
           },
-          "offset_field": 7980,
-          "offset_start": 7993,
-          "offset_end": 8027
+          "offset_field": 7848,
+          "offset_start": 7861,
+          "offset_end": 7894
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "base64"
           },
-          "offset_field": 8027,
-          "offset_start": 8053,
-          "offset_end": 8062
+          "offset_field": 7894,
+          "offset_start": 7920,
+          "offset_end": 7928
         },
         {
           "name": "content_disposition",
@@ -4566,9 +4566,9 @@
               ]
             }
           },
-          "offset_field": 8062,
-          "offset_start": 8082,
-          "offset_end": 8121
+          "offset_field": 7928,
+          "offset_start": 7948,
+          "offset_end": 7986
         }
       ],
       "is_encoding_problem": false,
@@ -5874,9 +5874,9 @@
           130
         ]
       },
-      "offset_header": 7980,
-      "offset_body": 8123,
-      "offset_end": 9899
+      "offset_header": 7848,
+      "offset_body": 7987,
+      "offset_end": 9741
     }
   ]
 }

@@ -23,7 +23,7 @@
           },
           "offset_field": 0,
           "offset_start": 5,
-          "offset_end": 40
+          "offset_end": 39
         },
         {
           "name": "to",
@@ -37,18 +37,18 @@
               ]
             }
           },
-          "offset_field": 40,
-          "offset_start": 43,
-          "offset_end": 101
+          "offset_field": 39,
+          "offset_start": 42,
+          "offset_end": 99
         },
         {
           "name": "subject",
           "value": {
             "Text": "Die Hasen und die Frösche (Microsoft Outlook 00)"
           },
-          "offset_field": 101,
-          "offset_start": 109,
-          "offset_end": 185
+          "offset_field": 99,
+          "offset_start": 107,
+          "offset_end": 182
         },
         {
           "name": "date",
@@ -65,27 +65,27 @@
               "tz_minute": 0
             }
           },
-          "offset_field": 185,
-          "offset_start": 190,
-          "offset_end": 224
+          "offset_field": 182,
+          "offset_start": 187,
+          "offset_end": 220
         },
         {
           "name": "message_id",
           "value": {
             "Text": "NDBBIAKOPKHFGPLCODIGCEKECHAA.doug@example.com"
           },
-          "offset_field": 224,
-          "offset_start": 235,
-          "offset_end": 285
+          "offset_field": 220,
+          "offset_start": 231,
+          "offset_end": 280
         },
         {
           "name": "mime_version",
           "value": {
             "Text": "1.0"
           },
-          "offset_field": 285,
-          "offset_start": 298,
-          "offset_end": 304
+          "offset_field": 280,
+          "offset_start": 293,
+          "offset_end": 298
         },
         {
           "name": "content_type",
@@ -101,18 +101,18 @@
               ]
             }
           },
-          "offset_field": 304,
-          "offset_start": 317,
-          "offset_end": 356
+          "offset_field": 298,
+          "offset_start": 311,
+          "offset_end": 348
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "quoted-printable"
           },
-          "offset_field": 356,
-          "offset_start": 382,
-          "offset_end": 401
+          "offset_field": 348,
+          "offset_start": 374,
+          "offset_end": 392
         },
         {
           "name": {
@@ -121,9 +121,9 @@
           "value": {
             "Text": "3 (Normal)"
           },
-          "offset_field": 401,
-          "offset_start": 412,
-          "offset_end": 425
+          "offset_field": 392,
+          "offset_start": 403,
+          "offset_end": 415
         },
         {
           "name": {
@@ -132,9 +132,9 @@
           "value": {
             "Text": "Normal"
           },
-          "offset_field": 425,
-          "offset_start": 443,
-          "offset_end": 452
+          "offset_field": 415,
+          "offset_start": 433,
+          "offset_end": 441
         },
         {
           "name": {
@@ -143,9 +143,9 @@
           "value": {
             "Text": "Microsoft Outlook IMO, Build 9.0.2416 (9.0.2910.0)"
           },
-          "offset_field": 452,
-          "offset_start": 461,
-          "offset_end": 514
+          "offset_field": 441,
+          "offset_start": 450,
+          "offset_end": 502
         },
         {
           "name": {
@@ -154,9 +154,9 @@
           "value": {
             "Text": "Normal"
           },
-          "offset_field": 514,
-          "offset_start": 525,
-          "offset_end": 534
+          "offset_field": 502,
+          "offset_start": 513,
+          "offset_end": 521
         },
         {
           "name": {
@@ -165,18 +165,18 @@
           "value": {
             "Text": "Produced By Microsoft MimeOLE V5.00.2314.1300"
           },
-          "offset_field": 534,
-          "offset_start": 544,
-          "offset_end": 592
+          "offset_field": 521,
+          "offset_start": 531,
+          "offset_end": 578
         }
       ],
       "is_encoding_problem": false,
       "body": {
-        "Text": "Die Hasen und die Frösche\r\n\r\nDie Hasen klagten einst über ihre mißliche Lage; \"wir leben\", sprach ein Redner, \"in steter Furcht vor Menschen und Tieren, eine Beute der Hunde, der Adler, ja fast aller Raubtiere! Unsere stete Angst ist ärger als der Tod selbst. Auf, laßt uns ein für allemal sterben.\" \r\n\r\nIn einem nahen Teich wollten sie sich nun ersäufen; sie eilten ihm zu; allein das außerordentliche Getöse und ihre wunderbare Gestalt erschreckte eine Menge Frösche, die am Ufer saßen, so sehr, daß sie aufs schnellste untertauchten. \r\n\r\n\"Halt\", rief nun eben dieser Sprecher, \"wir wollen das Ersäufen noch ein wenig aufschieben, denn auch uns fürchten, wie ihr seht, einige Tiere, welche also wohl noch unglücklicher sein müssen als wir.\" \r\n"
+        "Text": "Die Hasen und die Frösche\n\nDie Hasen klagten einst über ihre mißliche Lage; \"wir leben\", sprach ein Redner, \"in steter Furcht vor Menschen und Tieren, eine Beute der Hunde, der Adler, ja fast aller Raubtiere! Unsere stete Angst ist ärger als der Tod selbst. Auf, laßt uns ein für allemal sterben.\" \n\nIn einem nahen Teich wollten sie sich nun ersäufen; sie eilten ihm zu; allein das außerordentliche Getöse und ihre wunderbare Gestalt erschreckte eine Menge Frösche, die am Ufer saßen, so sehr, daß sie aufs schnellste untertauchten. \n\n\"Halt\", rief nun eben dieser Sprecher, \"wir wollen das Ersäufen noch ein wenig aufschieben, denn auch uns fürchten, wie ihr seht, einige Tiere, welche also wohl noch unglücklicher sein müssen als wir.\" \n"
       },
       "offset_header": 0,
-      "offset_body": 594,
-      "offset_end": 1401
+      "offset_body": 579,
+      "offset_end": 1371
     }
   ]
 }

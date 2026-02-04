@@ -16,7 +16,7 @@
           },
           "offset_field": 0,
           "offset_start": 11,
-          "offset_end": 64
+          "offset_end": 63
         },
         {
           "name": {
@@ -25,9 +25,9 @@
           "value": {
             "Text": "dwsauder@pop.example.com (Unverified)"
           },
-          "offset_field": 64,
-          "offset_start": 73,
-          "offset_end": 113
+          "offset_field": 63,
+          "offset_start": 72,
+          "offset_end": 111
         },
         {
           "name": {
@@ -36,9 +36,9 @@
           "value": {
             "Text": "QUALCOMM Windows Eudora Pro Version 4.2.0.58"
           },
-          "offset_field": 113,
-          "offset_start": 122,
-          "offset_end": 170
+          "offset_field": 111,
+          "offset_start": 120,
+          "offset_end": 167
         },
         {
           "name": {
@@ -47,9 +47,9 @@
           "value": {
             "Text": "1 (Highest)"
           },
-          "offset_field": 170,
-          "offset_start": 181,
-          "offset_end": 195
+          "offset_field": 167,
+          "offset_start": 178,
+          "offset_end": 191
         },
         {
           "name": "date",
@@ -66,9 +66,9 @@
               "tz_minute": 0
             }
           },
-          "offset_field": 195,
-          "offset_start": 200,
-          "offset_end": 234
+          "offset_field": 191,
+          "offset_start": 196,
+          "offset_end": 229
         },
         {
           "name": "to",
@@ -82,9 +82,9 @@
               ]
             }
           },
-          "offset_field": 234,
-          "offset_start": 237,
-          "offset_end": 274
+          "offset_field": 229,
+          "offset_start": 232,
+          "offset_end": 268
         },
         {
           "name": "from",
@@ -98,27 +98,27 @@
               ]
             }
           },
-          "offset_field": 274,
-          "offset_start": 279,
-          "offset_end": 316
+          "offset_field": 268,
+          "offset_start": 273,
+          "offset_end": 309
         },
         {
           "name": "subject",
           "value": {
             "Text": "Die Hasen und die Fr�sche"
           },
-          "offset_field": 316,
-          "offset_start": 324,
-          "offset_end": 352
+          "offset_field": 309,
+          "offset_start": 317,
+          "offset_end": 344
         },
         {
           "name": "mime_version",
           "value": {
             "Text": "1.0"
           },
-          "offset_field": 352,
-          "offset_start": 365,
-          "offset_end": 371
+          "offset_field": 344,
+          "offset_start": 357,
+          "offset_end": 362
         },
         {
           "name": "content_type",
@@ -134,27 +134,27 @@
               ]
             }
           },
-          "offset_field": 371,
-          "offset_start": 384,
-          "offset_end": 419
+          "offset_field": 362,
+          "offset_start": 375,
+          "offset_end": 409
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "8bit"
           },
-          "offset_field": 419,
-          "offset_start": 445,
-          "offset_end": 452
+          "offset_field": 409,
+          "offset_start": 435,
+          "offset_end": 441
         }
       ],
       "is_encoding_problem": false,
       "body": {
-        "Text": "Die Hasen und die Frösche\r\n\r\nDie Hasen klagten einst über ihre mißliche Lage; \"wir leben\", sprach ein Redner, \"in steter Furcht vor Menschen und Tieren, eine Beute der Hunde, der Adler, ja fast aller Raubtiere! Unsere stete Angst ist ärger als der Tod selbst. Auf, laßt uns ein für allemal sterben.\" \r\n\r\nIn einem nahen Teich wollten sie sich nun ersäufen; sie eilten ihm zu; allein das außerordentliche Getöse und ihre wunderbare Gestalt erschreckte eine Menge Frösche, die am Ufer saßen, so sehr, daß sie aufs schnellste untertauchten. \r\n\r\n\"Halt\", rief nun eben dieser Sprecher, \"wir wollen das Ersäufen noch ein wenig aufschieben, denn auch uns fürchten, wie ihr seht, einige Tiere, welche also wohl noch unglücklicher sein müssen als wir.\" \r\n\r\n\r\n"
+        "Text": "Die Hasen und die Frösche\n\nDie Hasen klagten einst über ihre mißliche Lage; \"wir leben\", sprach ein Redner, \"in steter Furcht vor Menschen und Tieren, eine Beute der Hunde, der Adler, ja fast aller Raubtiere! Unsere stete Angst ist ärger als der Tod selbst. Auf, laßt uns ein für allemal sterben.\" \n\nIn einem nahen Teich wollten sie sich nun ersäufen; sie eilten ihm zu; allein das außerordentliche Getöse und ihre wunderbare Gestalt erschreckte eine Menge Frösche, die am Ufer saßen, so sehr, daß sie aufs schnellste untertauchten. \n\n\"Halt\", rief nun eben dieser Sprecher, \"wir wollen das Ersäufen noch ein wenig aufschieben, denn auch uns fürchten, wie ihr seht, einige Tiere, welche also wohl noch unglücklicher sein müssen als wir.\" \n\n\n"
       },
       "offset_header": 0,
-      "offset_body": 454,
-      "offset_end": 1203
+      "offset_body": 442,
+      "offset_end": 1182
     }
   ]
 }

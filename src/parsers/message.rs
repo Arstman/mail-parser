@@ -633,7 +633,7 @@ mod tests {
     fn strip_crlf(bytes: &[u8]) -> Vec<u8> {
         let mut result = Vec::with_capacity(bytes.len());
         for &ch in bytes {
-            if !ch != b'\r' {
+            if ch != b'\r' {
                 result.push(ch);
             }
         }

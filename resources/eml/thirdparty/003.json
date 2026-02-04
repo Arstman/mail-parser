@@ -57,7 +57,7 @@
       },
       "offset_header": 0,
       "offset_body": 63,
-      "offset_end": 656
+      "offset_end": 654
     },
     {
       "headers": [
@@ -144,7 +144,7 @@
           },
           "offset_field": 292,
           "offset_start": 318,
-          "offset_end": 328
+          "offset_end": 327
         },
         {
           "name": "content_type",
@@ -160,9 +160,9 @@
               ]
             }
           },
-          "offset_field": 328,
-          "offset_start": 341,
-          "offset_end": 368
+          "offset_field": 327,
+          "offset_start": 340,
+          "offset_end": 367
         }
       ],
       "is_encoding_problem": false,
@@ -170,8 +170,8 @@
         "Text": "Move ♚ to ♛'s ♝\n"
       },
       "offset_header": 292,
-      "offset_body": 369,
-      "offset_end": 391
+      "offset_body": 368,
+      "offset_end": 390
     },
     {
       "headers": [
@@ -180,9 +180,9 @@
           "value": {
             "Text": "quoted-printable"
           },
-          "offset_field": 396,
-          "offset_start": 422,
-          "offset_end": 455
+          "offset_field": 395,
+          "offset_start": 421,
+          "offset_end": 453
         },
         {
           "name": "content_type",
@@ -198,18 +198,18 @@
               ]
             }
           },
-          "offset_field": 455,
-          "offset_start": 468,
-          "offset_end": 495
+          "offset_field": 453,
+          "offset_start": 466,
+          "offset_end": 493
         }
       ],
       "is_encoding_problem": false,
       "body": {
         "Text": "Move ♚ to ♛'s ♝\n"
       },
-      "offset_header": 396,
-      "offset_body": 496,
-      "offset_end": 536
+      "offset_header": 395,
+      "offset_body": 494,
+      "offset_end": 534
     },
     {
       "headers": [
@@ -218,9 +218,9 @@
           "value": {
             "Text": "base64"
           },
-          "offset_field": 541,
-          "offset_start": 567,
-          "offset_end": 575
+          "offset_field": 539,
+          "offset_start": 565,
+          "offset_end": 573
         },
         {
           "name": "content_type",
@@ -236,18 +236,18 @@
               ]
             }
           },
-          "offset_field": 575,
-          "offset_start": 588,
-          "offset_end": 615
+          "offset_field": 573,
+          "offset_start": 586,
+          "offset_end": 613
         }
       ],
       "is_encoding_problem": false,
       "body": {
         "Text": "Move ♚ to ♛'s ♝\n"
       },
-      "offset_header": 541,
-      "offset_body": 616,
-      "offset_end": 649
+      "offset_header": 539,
+      "offset_body": 614,
+      "offset_end": 647
     }
   ]
 }

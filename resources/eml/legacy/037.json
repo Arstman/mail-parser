@@ -20,7 +20,7 @@
           },
           "offset_field": 0,
           "offset_start": 11,
-          "offset_end": 45
+          "offset_end": 44
         },
         {
           "name": "date",
@@ -37,9 +37,9 @@
               "tz_minute": 0
             }
           },
-          "offset_field": 45,
-          "offset_start": 50,
-          "offset_end": 84
+          "offset_field": 44,
+          "offset_start": 49,
+          "offset_end": 82
         },
         {
           "name": "from",
@@ -53,9 +53,9 @@
               ]
             }
           },
-          "offset_field": 84,
-          "offset_start": 89,
-          "offset_end": 126
+          "offset_field": 82,
+          "offset_start": 87,
+          "offset_end": 123
         },
         {
           "name": {
@@ -64,9 +64,9 @@
           "value": {
             "Text": "Mozilla 4.7 [en] (WinNT; I)"
           },
-          "offset_field": 126,
-          "offset_start": 135,
-          "offset_end": 165
+          "offset_field": 123,
+          "offset_start": 132,
+          "offset_end": 161
         },
         {
           "name": {
@@ -75,18 +75,18 @@
           "value": {
             "Text": "en"
           },
-          "offset_field": 165,
-          "offset_start": 183,
-          "offset_end": 188
+          "offset_field": 161,
+          "offset_start": 179,
+          "offset_end": 183
         },
         {
           "name": "mime_version",
           "value": {
             "Text": "1.0"
           },
-          "offset_field": 188,
-          "offset_start": 201,
-          "offset_end": 207
+          "offset_field": 183,
+          "offset_start": 196,
+          "offset_end": 201
         },
         {
           "name": "to",
@@ -100,18 +100,18 @@
               ]
             }
           },
-          "offset_field": 207,
-          "offset_start": 210,
-          "offset_end": 240
+          "offset_field": 201,
+          "offset_start": 204,
+          "offset_end": 233
         },
         {
           "name": "subject",
           "value": {
             "Text": "Test message from Netscape Communicator 4.7"
           },
-          "offset_field": 240,
-          "offset_start": 248,
-          "offset_end": 294
+          "offset_field": 233,
+          "offset_start": 241,
+          "offset_end": 286
         },
         {
           "name": "content_type",
@@ -127,9 +127,9 @@
               ]
             }
           },
-          "offset_field": 294,
-          "offset_start": 307,
-          "offset_end": 376
+          "offset_field": 286,
+          "offset_start": 299,
+          "offset_end": 366
         }
       ],
       "is_encoding_problem": false,
@@ -140,8 +140,8 @@
         ]
       },
       "offset_header": 0,
-      "offset_body": 378,
-      "offset_end": 2589
+      "offset_body": 367,
+      "offset_end": 2538
     },
     {
       "headers": [
@@ -159,27 +159,27 @@
               ]
             }
           },
-          "offset_field": 464,
-          "offset_start": 477,
-          "offset_end": 508
+          "offset_field": 451,
+          "offset_start": 464,
+          "offset_end": 494
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "7bit"
           },
-          "offset_field": 508,
-          "offset_start": 534,
-          "offset_end": 541
+          "offset_field": 494,
+          "offset_start": 520,
+          "offset_end": 526
         }
       ],
       "is_encoding_problem": false,
       "body": {
         "Text": " "
       },
-      "offset_header": 464,
-      "offset_body": 543,
-      "offset_end": 544
+      "offset_header": 451,
+      "offset_body": 527,
+      "offset_end": 528
     },
     {
       "headers": [
@@ -197,18 +197,18 @@
               ]
             }
           },
-          "offset_field": 586,
-          "offset_start": 599,
-          "offset_end": 634
+          "offset_field": 568,
+          "offset_start": 581,
+          "offset_end": 614
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "base64"
           },
-          "offset_field": 634,
-          "offset_start": 660,
-          "offset_end": 669
+          "offset_field": 614,
+          "offset_start": 640,
+          "offset_end": 648
         },
         {
           "name": "content_disposition",
@@ -224,9 +224,9 @@
               ]
             }
           },
-          "offset_field": 669,
-          "offset_start": 689,
-          "offset_end": 725
+          "offset_field": 648,
+          "offset_start": 668,
+          "offset_end": 702
         }
       ],
       "is_encoding_problem": false,
@@ -1559,9 +1559,9 @@
           130
         ]
       },
-      "offset_header": 586,
-      "offset_body": 727,
-      "offset_end": 2543
+      "offset_header": 568,
+      "offset_body": 703,
+      "offset_end": 2495
     }
   ]
 }

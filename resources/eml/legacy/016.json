@@ -19,7 +19,7 @@
           },
           "offset_field": 0,
           "offset_start": 11,
-          "offset_end": 64
+          "offset_end": 63
         },
         {
           "name": {
@@ -28,9 +28,9 @@
           "value": {
             "Text": "dwsauder@pop.example.com (Unverified)"
           },
-          "offset_field": 64,
-          "offset_start": 73,
-          "offset_end": 113
+          "offset_field": 63,
+          "offset_start": 72,
+          "offset_end": 111
         },
         {
           "name": {
@@ -39,9 +39,9 @@
           "value": {
             "Text": "QUALCOMM Windows Eudora Pro Version 4.2.0.58"
           },
-          "offset_field": 113,
-          "offset_start": 122,
-          "offset_end": 170
+          "offset_field": 111,
+          "offset_start": 120,
+          "offset_end": 167
         },
         {
           "name": "date",
@@ -58,9 +58,9 @@
               "tz_minute": 0
             }
           },
-          "offset_field": 170,
-          "offset_start": 175,
-          "offset_end": 209
+          "offset_field": 167,
+          "offset_start": 172,
+          "offset_end": 205
         },
         {
           "name": "to",
@@ -74,9 +74,9 @@
               ]
             }
           },
-          "offset_field": 209,
-          "offset_start": 212,
-          "offset_end": 295
+          "offset_field": 205,
+          "offset_start": 208,
+          "offset_end": 289
         },
         {
           "name": "from",
@@ -90,27 +90,27 @@
               ]
             }
           },
-          "offset_field": 295,
-          "offset_start": 300,
-          "offset_end": 337
+          "offset_field": 289,
+          "offset_start": 294,
+          "offset_end": 330
         },
         {
           "name": "subject",
           "value": {
             "Text": "Die Hasen und die Frösche"
           },
-          "offset_field": 337,
-          "offset_start": 345,
-          "offset_end": 390
+          "offset_field": 330,
+          "offset_start": 338,
+          "offset_end": 382
         },
         {
           "name": "mime_version",
           "value": {
             "Text": "1.0"
           },
-          "offset_field": 390,
-          "offset_start": 403,
-          "offset_end": 409
+          "offset_field": 382,
+          "offset_start": 395,
+          "offset_end": 400
         },
         {
           "name": "content_type",
@@ -126,9 +126,9 @@
               ]
             }
           },
-          "offset_field": 409,
-          "offset_start": 422,
-          "offset_end": 489
+          "offset_field": 400,
+          "offset_start": 413,
+          "offset_end": 478
         }
       ],
       "is_encoding_problem": false,
@@ -140,8 +140,8 @@
         ]
       },
       "offset_header": 0,
-      "offset_body": 491,
-      "offset_end": 4873
+      "offset_body": 479,
+      "offset_end": 4778
     },
     {
       "headers": [
@@ -159,27 +159,27 @@
               ]
             }
           },
-          "offset_field": 529,
-          "offset_start": 542,
-          "offset_end": 577
+          "offset_field": 516,
+          "offset_start": 529,
+          "offset_end": 563
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "quoted-printable"
           },
-          "offset_field": 577,
-          "offset_start": 603,
-          "offset_end": 622
+          "offset_field": 563,
+          "offset_start": 589,
+          "offset_end": 607
         }
       ],
       "is_encoding_problem": false,
       "body": {
-        "Text": "Die Hasen und die Frösche\r\n\r\nDie Hasen klagten einst über ihre mißliche Lage; \"wir leben\", sprach ein Redner, \"in steter Furcht vor Menschen und Tieren, eine Beute der Hunde, der Adler, ja fast aller Raubtiere! Unsere stete Angst ist ärger als der Tod selbst. Auf, laßt uns ein für allemal sterben.\" \r\n\r\nIn einem nahen Teich wollten sie sich nun ersäufen; sie eilten ihm zu; allein das außerordentliche Getöse und ihre wunderbare Gestalt erschreckte eine Menge Frösche, die am Ufer saßen, so sehr, daß sie aufs schnellste untertauchten. \r\n\r\n\"Halt\", rief nun eben dieser Sprecher, \"wir wollen das Ersäufen noch ein wenig aufschieben, denn auch uns fürchten, wie ihr seht, einige Tiere, welche also wohl noch unglücklicher sein müssen als wir.\" \r\n\r\n"
+        "Text": "Die Hasen und die Frösche\n\nDie Hasen klagten einst über ihre mißliche Lage; \"wir leben\", sprach ein Redner, \"in steter Furcht vor Menschen und Tieren, eine Beute der Hunde, der Adler, ja fast aller Raubtiere! Unsere stete Angst ist ärger als der Tod selbst. Auf, laßt uns ein für allemal sterben.\" \n\nIn einem nahen Teich wollten sie sich nun ersäufen; sie eilten ihm zu; allein das außerordentliche Getöse und ihre wunderbare Gestalt erschreckte eine Menge Frösche, die am Ufer saßen, so sehr, daß sie aufs schnellste untertauchten. \n\n\"Halt\", rief nun eben dieser Sprecher, \"wir wollen das Ersäufen noch ein wenig aufschieben, denn auch uns fürchten, wie ihr seht, einige Tiere, welche also wohl noch unglücklicher sein müssen als wir.\" \n\n"
       },
-      "offset_header": 529,
-      "offset_body": 624,
-      "offset_end": 1433
+      "offset_header": 516,
+      "offset_body": 608,
+      "offset_end": 1401
     },
     {
       "headers": [
@@ -197,9 +197,9 @@
               ]
             }
           },
-          "offset_field": 1473,
-          "offset_start": 1486,
-          "offset_end": 1534
+          "offset_field": 1439,
+          "offset_start": 1452,
+          "offset_end": 1499
         },
         {
           "name": "content_disposition",
@@ -215,15 +215,14 @@
               ]
             }
           },
-          "offset_field": 1534,
-          "offset_start": 1554,
-          "offset_end": 1592
+          "offset_field": 1499,
+          "offset_start": 1519,
+          "offset_end": 1556
         }
       ],
       "is_encoding_problem": false,
       "body": {
         "Binary": [
-          13,
           10,
           40,
           84,
@@ -270,7 +269,6 @@
           46,
           48,
           41,
-          13,
           10,
           58,
           36,
@@ -336,7 +334,6 @@
           36,
           56,
           80,
-          13,
           10,
           41,
           52,
@@ -402,7 +399,6 @@
           33,
           34,
           34,
-          13,
           10,
           35,
           33,
@@ -468,7 +464,6 @@
           37,
           36,
           39,
-          13,
           10,
           56,
           33,
@@ -534,7 +529,6 @@
           41,
           57,
           44,
-          13,
           10,
           72,
           39,
@@ -600,7 +594,6 @@
           64,
           83,
           54,
-          13,
           10,
           64,
           86,
@@ -666,7 +659,6 @@
           43,
           57,
           86,
-          13,
           10,
           91,
           35,
@@ -732,7 +724,6 @@
           33,
           33,
           33,
-          13,
           10,
           33,
           33,
@@ -798,7 +789,6 @@
           33,
           33,
           33,
-          13,
           10,
           33,
           33,
@@ -864,7 +854,6 @@
           33,
           33,
           33,
-          13,
           10,
           33,
           33,
@@ -930,7 +919,6 @@
           33,
           33,
           33,
-          13,
           10,
           33,
           33,
@@ -996,7 +984,6 @@
           33,
           33,
           33,
-          13,
           10,
           33,
           33,
@@ -1062,7 +1049,6 @@
           33,
           33,
           33,
-          13,
           10,
           33,
           33,
@@ -1128,7 +1114,6 @@
           33,
           33,
           33,
-          13,
           10,
           33,
           33,
@@ -1194,7 +1179,6 @@
           33,
           33,
           33,
-          13,
           10,
           33,
           33,
@@ -1260,7 +1244,6 @@
           33,
           33,
           33,
-          13,
           10,
           33,
           33,
@@ -1326,7 +1309,6 @@
           33,
           33,
           33,
-          13,
           10,
           33,
           33,
@@ -1392,7 +1374,6 @@
           33,
           33,
           33,
-          13,
           10,
           33,
           33,
@@ -1458,7 +1439,6 @@
           33,
           33,
           33,
-          13,
           10,
           64,
           71,
@@ -1524,7 +1504,6 @@
           45,
           34,
           74,
-          13,
           10,
           39,
           105,
@@ -1590,7 +1569,6 @@
           43,
           37,
           51,
-          13,
           10,
           83,
           70,
@@ -1656,7 +1634,6 @@
           80,
           80,
           45,
-          13,
           10,
           48,
           76,
@@ -1722,7 +1699,6 @@
           114,
           71,
           64,
-          13,
           10,
           50,
           72,
@@ -1788,7 +1764,6 @@
           34,
           104,
           114,
-          13,
           10,
           113,
           114,
@@ -1854,7 +1829,6 @@
           69,
           57,
           80,
-          13,
           10,
           64,
           89,
@@ -1920,7 +1894,6 @@
           89,
           90,
           90,
-          13,
           10,
           88,
           89,
@@ -1986,7 +1959,6 @@
           68,
           64,
           101,
-          13,
           10,
           113,
           48,
@@ -2052,7 +2024,6 @@
           99,
           48,
           76,
-          13,
           10,
           67,
           68,
@@ -2118,7 +2089,6 @@
           71,
           64,
           57,
-          13,
           10,
           100,
           48,
@@ -2150,13 +2120,12 @@
           33,
           33,
           58,
-          13,
           10
         ]
       },
-      "offset_header": 1473,
-      "offset_body": 1594,
-      "offset_end": 3523
+      "offset_header": 1439,
+      "offset_body": 1557,
+      "offset_end": 3455
     },
     {
       "headers": [
@@ -2174,9 +2143,9 @@
               ]
             }
           },
-          "offset_field": 3563,
-          "offset_start": 3576,
-          "offset_end": 3631
+          "offset_field": 3493,
+          "offset_start": 3506,
+          "offset_end": 3560
         },
         {
           "name": "content_disposition",
@@ -2192,15 +2161,14 @@
               ]
             }
           },
-          "offset_field": 3631,
-          "offset_start": 3651,
-          "offset_end": 3696
+          "offset_field": 3560,
+          "offset_start": 3580,
+          "offset_end": 3624
         }
       ],
       "is_encoding_problem": false,
       "body": {
         "Binary": [
-          13,
           10,
           40,
           84,
@@ -2247,7 +2215,6 @@
           46,
           48,
           41,
-          13,
           10,
           58,
           37,
@@ -2313,7 +2280,6 @@
           53,
           39,
           38,
-          13,
           10,
           99,
           67,
@@ -2379,7 +2345,6 @@
           66,
           81,
           57,
-          13,
           10,
           98,
           41,
@@ -2445,7 +2410,6 @@
           56,
           81,
           57,
-          13,
           10,
           78,
           69,
@@ -2511,7 +2475,6 @@
           69,
           76,
           96,
-          13,
           10,
           74,
           67,
@@ -2577,7 +2540,6 @@
           70,
           76,
           34,
-          13,
           10,
           53,
           66,
@@ -2643,7 +2605,6 @@
           70,
           76,
           34,
-          13,
           10,
           56,
           69,
@@ -2709,7 +2670,6 @@
           66,
           81,
           57,
-          13,
           10,
           90,
           44,
@@ -2775,7 +2735,6 @@
           69,
           76,
           34,
-          13,
           10,
           80,
           70,
@@ -2841,7 +2800,6 @@
           70,
           81,
           52,
-          13,
           10,
           80,
           69,
@@ -2907,7 +2865,6 @@
           70,
           102,
           48,
-          13,
           10,
           83,
           70,
@@ -2973,7 +2930,6 @@
           41,
           40,
           48,
-          13,
           10,
           91,
           41,
@@ -3039,7 +2995,6 @@
           41,
           33,
           100,
-          13,
           10,
           48,
           41,
@@ -3105,7 +3060,6 @@
           69,
           102,
           97,
-          13,
           10,
           88,
           67,
@@ -3171,7 +3125,6 @@
           67,
           64,
           106,
-          13,
           10,
           90,
           41,
@@ -3237,7 +3190,6 @@
           67,
           53,
           96,
-          13,
           10,
           74,
           71,
@@ -3303,7 +3255,6 @@
           67,
           64,
           105,
-          13,
           10,
           74,
           66,
@@ -3329,13 +3280,12 @@
           33,
           33,
           58,
-          13,
           10
         ]
       },
-      "offset_header": 3563,
-      "offset_body": 3698,
-      "offset_end": 4829
+      "offset_header": 3493,
+      "offset_body": 3625,
+      "offset_end": 4737
     }
   ]
 }

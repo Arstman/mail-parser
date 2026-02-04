@@ -21,7 +21,7 @@
           },
           "offset_field": 0,
           "offset_start": 5,
-          "offset_end": 40
+          "offset_end": 39
         },
         {
           "name": "to",
@@ -35,18 +35,18 @@
               ]
             }
           },
-          "offset_field": 40,
-          "offset_start": 43,
-          "offset_end": 76
+          "offset_field": 39,
+          "offset_start": 42,
+          "offset_end": 74
         },
         {
           "name": "subject",
           "value": {
             "Text": "Test message from Microsoft Outlook 00"
           },
-          "offset_field": 76,
-          "offset_start": 84,
-          "offset_end": 125
+          "offset_field": 74,
+          "offset_start": 82,
+          "offset_end": 122
         },
         {
           "name": "date",
@@ -63,27 +63,27 @@
               "tz_minute": 0
             }
           },
-          "offset_field": 125,
-          "offset_start": 130,
-          "offset_end": 164
+          "offset_field": 122,
+          "offset_start": 127,
+          "offset_end": 160
         },
         {
           "name": "message_id",
           "value": {
             "Text": "NDBBIAKOPKHFGPLCODIGKEKECHAA.doug@example.com"
           },
-          "offset_field": 164,
-          "offset_start": 175,
-          "offset_end": 225
+          "offset_field": 160,
+          "offset_start": 171,
+          "offset_end": 220
         },
         {
           "name": "mime_version",
           "value": {
             "Text": "1.0"
           },
-          "offset_field": 225,
-          "offset_start": 238,
-          "offset_end": 244
+          "offset_field": 220,
+          "offset_start": 233,
+          "offset_end": 238
         },
         {
           "name": "content_type",
@@ -99,18 +99,18 @@
               ]
             }
           },
-          "offset_field": 244,
-          "offset_start": 257,
-          "offset_end": 291
+          "offset_field": 238,
+          "offset_start": 251,
+          "offset_end": 283
         },
         {
           "name": "content_transfer_encoding",
           "value": {
             "Text": "base64"
           },
-          "offset_field": 291,
-          "offset_start": 317,
-          "offset_end": 326
+          "offset_field": 283,
+          "offset_start": 309,
+          "offset_end": 317
         },
         {
           "name": "content_disposition",
@@ -126,9 +126,9 @@
               ]
             }
           },
-          "offset_field": 326,
-          "offset_start": 346,
-          "offset_end": 385
+          "offset_field": 317,
+          "offset_start": 337,
+          "offset_end": 374
         },
         {
           "name": {
@@ -137,9 +137,9 @@
           "value": {
             "Text": "3 (Normal)"
           },
-          "offset_field": 385,
-          "offset_start": 396,
-          "offset_end": 409
+          "offset_field": 374,
+          "offset_start": 385,
+          "offset_end": 397
         },
         {
           "name": {
@@ -148,9 +148,9 @@
           "value": {
             "Text": "Normal"
           },
-          "offset_field": 409,
-          "offset_start": 427,
-          "offset_end": 436
+          "offset_field": 397,
+          "offset_start": 415,
+          "offset_end": 423
         },
         {
           "name": {
@@ -159,9 +159,9 @@
           "value": {
             "Text": "Microsoft Outlook IMO, Build 9.0.2416 (9.0.2910.0)"
           },
-          "offset_field": 436,
-          "offset_start": 445,
-          "offset_end": 498
+          "offset_field": 423,
+          "offset_start": 432,
+          "offset_end": 484
         },
         {
           "name": {
@@ -170,9 +170,9 @@
           "value": {
             "Text": "Normal"
           },
-          "offset_field": 498,
-          "offset_start": 509,
-          "offset_end": 518
+          "offset_field": 484,
+          "offset_start": 495,
+          "offset_end": 503
         },
         {
           "name": {
@@ -181,9 +181,9 @@
           "value": {
             "Text": "Produced By Microsoft MimeOLE V5.00.2314.1300"
           },
-          "offset_field": 518,
-          "offset_start": 528,
-          "offset_end": 576
+          "offset_field": 503,
+          "offset_start": 513,
+          "offset_end": 560
         }
       ],
       "is_encoding_problem": false,
@@ -1645,8 +1645,8 @@
         ]
       },
       "offset_header": 0,
-      "offset_body": 578,
-      "offset_end": 2570
+      "offset_body": 561,
+      "offset_end": 2527
     }
   ]
 }
