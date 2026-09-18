@@ -4,53 +4,187 @@
  * SPDX-License-Identifier: Apache-2.0 OR MIT
  */
 
+const MAX_PREFIX_LEN: usize = 40;
+const MAX_GENERIC_PREFIX_CHARS: usize = 4;
+
 fn is_re_prefix(prefix: &str) -> bool {
     hashify::tiny_set! {prefix.as_bytes(),
         "re",
         "res",
-        "sv",
-        "antw",
+        "resp",
+        "resposta",
+        "respuesta",
+        "rsp",
         "ref",
+        "réf",
+        "rép",
+        "rep",
+        "réponse",
+        "reponse",
         "aw",
-        "απ",
-        "השב",
+        "antw",
+        "antwort",
+        "antwoord",
+        "sv",
+        "svar",
+        "svara",
+        "vast",
+        "vastaus",
+        "vastus",
         "vá",
+        "va",
+        "válasz",
+        "valasz",
         "r",
+        "ri",
         "rif",
-        "bls",
         "odp",
+        "odpowiedź",
+        "odpowiedz",
+        "odpov",
+        "odg",
+        "odgovor",
+        "απ",
+        "σχετ",
+        "απάντηση",
         "ynt",
+        "yn",
+        "yan",
+        "yanıt",
+        "yanit",
         "atb",
+        "atb.",
+        "atbilde",
+        "ateb",
+        "ats",
+        "ats.",
+        "atsakymas",
+        "bls",
+        "balas",
+        "השב",
+        "תשובה",
         "رد",
+        "پاسخ",
+        "отв",
+        "ответ",
+        "відп",
+        "відповідь",
+        "отг",
+        "отговор",
         "回复",
-        "转发",
+        "回覆",
+        "答复",
+        "答覆",
+        "返信",
+        "회신",
+        "답장",
+        "ตอบกลับ",
+        "பதில்",
+        "trả lời",
     }
 }
 
 fn is_fwd_prefix(prefix: &str) -> bool {
     hashify::tiny_set! {prefix.as_bytes(),
-    "fwd",
-    "fw",
-    "rv",
-    "enc",
-    "vs",
-    "doorst",
-    "vl",
-    "tr",
-    "wg",
-    "πρθ",
-    "הועבר",
-    "továbbítás",
-    "i",
-    "fs",
-    "trs",
-    "vb",
-    "pd",
-    "i̇lt",
-    "yml",
-    "إعادة توجيه",
-    "回覆",
-    "轉寄",
+        "fwd",
+        "fw",
+        "rv",
+        "reenviado",
+        "enc",
+        "encaminhado",
+        "tr",
+        "transfert",
+        "wg",
+        "weitergeleitet",
+        "doorst",
+        "doorgestuurd",
+        "vs",
+        "videresendt",
+        "vb",
+        "vidarebefordrat",
+        "vl",
+        "välitetty",
+        "ed",
+        "edastatud",
+        "fs",
+        "framsenda",
+        "i",
+        "inoltro",
+        "inoltrato",
+        "pd",
+        "podaj dalej",
+        "przekazane",
+        "prosl",
+        "proslijeđeno",
+        "πρθ",
+        "προωθ",
+        "προωθημένο",
+        "i\u{307}lt",
+        "ilt",
+        "i\u{307}let",
+        "ilet",
+        "i\u{307}letilen",
+        "iletilen",
+        "yml",
+        "ymlaen",
+        "pārs",
+        "pārs.",
+        "pārsūtīts",
+        "persiųsta",
+        "trs",
+        "terusan",
+        "teruskan",
+        "továbbítás",
+        "הועבר",
+        "העברה",
+        "إعادة توجيه",
+        "перес",
+        "переслано",
+        "пересылка",
+        "пре",
+        "препратено",
+        "转发",
+        "转寄",
+        "轉寄",
+        "転送",
+        "전달",
+        "ส่งต่อ",
+        "முன்னனுப்பு",
+        "chuyển tiếp",
+    }
+}
+
+fn is_known_prefix(prefix: &str) -> bool {
+    is_re_prefix(prefix) || is_fwd_prefix(prefix)
+}
+
+fn is_generic_prefix(prefix: &str) -> bool {
+    let mut char_count = 0;
+
+    for ch in prefix.chars() {
+        if !ch.is_alphabetic() {
+            return false;
+        }
+        char_count += 1;
+        if char_count > MAX_GENERIC_PREFIX_CHARS {
+            return false;
+        }
+    }
+
+    char_count > 0
+}
+
+fn is_prefix(text: &str, token_start: usize, token_end: usize, separator: usize) -> bool {
+    if is_known_prefix(text[token_start..token_end].to_lowercase().as_ref()) {
+        return true;
+    }
+
+    if token_end == separator {
+        !text[separator..].starts_with("://")
+            && is_generic_prefix(text[token_start..token_end].to_lowercase().as_ref())
+    } else {
+        let span = text[token_start..separator].trim_end();
+        span.len() <= MAX_PREFIX_LEN && is_known_prefix(span.to_lowercase().as_ref())
     }
 }
 
@@ -77,8 +211,7 @@ pub fn thread_name(text: &str) -> &str {
                         if token_end == 0 {
                             token_end = pos;
                         }
-                        let prefix = text[token_start..token_end].to_lowercase();
-                        if is_re_prefix(prefix.as_ref()) || is_fwd_prefix(prefix.as_ref()) {
+                        if is_prefix(text, token_start, token_end, pos) {
                             seen_header = true;
                         } else {
                             break;
@@ -110,8 +243,7 @@ pub fn thread_name(text: &str) -> &str {
                     if token_end == 0 {
                         token_end = pos;
                     }
-                    let prefix = text[token_start..token_end].to_lowercase();
-                    if !is_re_prefix(prefix.as_ref()) && !is_fwd_prefix(prefix.as_ref()) {
+                    if !is_prefix(text, token_start, token_end, pos) {
                         break;
                     }
                 } else {
@@ -145,7 +277,7 @@ pub fn thread_name(text: &str) -> &str {
                     token_start = pos;
                     token_end = 0;
                     token_found = true;
-                } else if !in_blob && pos - token_start > 21 {
+                } else if !in_blob && pos - token_start > MAX_PREFIX_LEN {
                     break;
                 }
             }
@@ -242,7 +374,6 @@ mod tests {
             ("fwd[5]:re[5]: hello", "hello"),
             ("fwd[99]:  re[40]: hello", "hello"),
             (": hello", ": hello"),
-            ("z: hello", "z: hello"),
             ("re:: hello", ": hello"),
             ("[10] hello", "hello"),
             ("fwd[a]: hello", "hello"),
@@ -291,6 +422,207 @@ mod tests {
     }
 
     #[test]
+    fn parse_unknown_prefix() {
+        let tests = [
+            ("z: hello", "hello"),
+            ("yn: merhaba", "merhaba"),
+            ("yan: merhaba", "merhaba"),
+            ("ilt: merhaba", "merhaba"),
+            ("Ynt: Re: Yan: merhaba", "merhaba"),
+            ("ans: hello", "hello"),
+            ("ΑΠΝΤ: γεια", "γεια"),
+            ("meeting: hello", "meeting: hello"),
+            ("urgent: hello", "urgent: hello"),
+            ("bug 123: hello", "bug 123: hello"),
+            ("12:30 meeting", "12:30 meeting"),
+            ("no re: foobar", "no re: foobar"),
+            ("re: no re: foobar", "no re: foobar"),
+            ("re-check: hello", "re-check: hello"),
+            ("q3: results", "q3: results"),
+            ("http://example.com/page", "http://example.com/page"),
+            ("ftp://example.com", "ftp://example.com"),
+            ("note: remember this", "remember this"),
+            ("hi: there", "there"),
+        ];
+
+        for (input, expected) in tests {
+            assert_eq!(thread_name(input), expected, "{input:?}");
+        }
+    }
+
+    #[test]
+    fn parse_localized_prefix() {
+        let tests = [
+            ("Re: hello", "hello"),
+            ("RES: olá", "olá"),
+            ("Resposta: olá", "olá"),
+            ("RV: hola", "hola"),
+            ("Respuesta: hola", "hola"),
+            ("ENC: olá", "olá"),
+            ("Encaminhado: olá", "olá"),
+            ("RÉF: bonjour", "bonjour"),
+            ("Rép: bonjour", "bonjour"),
+            ("TR: bonjour", "bonjour"),
+            ("Transfert: bonjour", "bonjour"),
+            ("AW: hallo", "hallo"),
+            ("Antwort: hallo", "hallo"),
+            ("WG: hallo", "hallo"),
+            ("Weitergeleitet: hallo", "hallo"),
+            ("Antw: hallo", "hallo"),
+            ("Doorst: hallo", "hallo"),
+            ("Doorgestuurd: hallo", "hallo"),
+            ("SV: hej", "hej"),
+            ("Svar: hej", "hej"),
+            ("VS: hej", "hej"),
+            ("Videresendt: hej", "hej"),
+            ("VB: hej", "hej"),
+            ("Vidarebefordrat: hej", "hej"),
+            ("VS: moi", "moi"),
+            ("Vastaus: moi", "moi"),
+            ("VL: moi", "moi"),
+            ("Välitetty: moi", "moi"),
+            ("ED: tere", "tere"),
+            ("Edastatud: tere", "tere"),
+            ("FS: halló", "halló"),
+            ("Framsenda: halló", "halló"),
+            ("Vá: szia", "szia"),
+            ("Válasz: szia", "szia"),
+            ("Továbbítás: szia", "szia"),
+            ("R: ciao", "ciao"),
+            ("RIF: ciao", "ciao"),
+            ("I: ciao", "ciao"),
+            ("Inoltro: ciao", "ciao"),
+            ("Odp: cześć", "cześć"),
+            ("Odpowiedź: cześć", "cześć"),
+            ("PD: cześć", "cześć"),
+            ("Podaj dalej: cześć", "cześć"),
+            ("Odg: bok", "bok"),
+            ("Odgovor: bok", "bok"),
+            ("ΑΠ: γεια", "γεια"),
+            ("ΣΧΕΤ: γεια", "γεια"),
+            ("Απάντηση: γεια", "γεια"),
+            ("ΠΡΘ: γεια", "γεια"),
+            ("Προωθημένο: γεια", "γεια"),
+            ("YNT: merhaba", "merhaba"),
+            ("Yanıt: merhaba", "merhaba"),
+            ("İLT: merhaba", "merhaba"),
+            ("İletilen: merhaba", "merhaba"),
+            ("Atb: sveiki", "sveiki"),
+            ("Atbilde: sveiki", "sveiki"),
+            ("Pārs: sveiki", "sveiki"),
+            ("Pārsūtīts: sveiki", "sveiki"),
+            ("Ats: labas", "labas"),
+            ("Atsakymas: labas", "labas"),
+            ("Persiųsta: labas", "labas"),
+            ("ATB: helo", "helo"),
+            ("Ateb: helo", "helo"),
+            ("YML: helo", "helo"),
+            ("Ymlaen: helo", "helo"),
+            ("BLS: halo", "halo"),
+            ("Balas: halo", "halo"),
+            ("TRS: halo", "halo"),
+            ("Teruskan: halo", "halo"),
+            ("השב: שלום", "שלום"),
+            ("תשובה: שלום", "שלום"),
+            ("הועבר: שלום", "שלום"),
+            ("העברה: שלום", "שלום"),
+            ("رد: مرحبا", "مرحبا"),
+            ("إعادة توجيه: مرحبا", "مرحبا"),
+            ("پاسخ: سلام", "سلام"),
+            ("Отв: привет", "привет"),
+            ("Ответ: привет", "привет"),
+            ("Пересылка: привет", "привет"),
+            ("Переслано: привет", "привет"),
+            ("Відп: привіт", "привіт"),
+            ("Відповідь: привіт", "привіт"),
+            ("Отг: здравей", "здравей"),
+            ("Препратено: здравей", "здравей"),
+            ("回复: 你好", "你好"),
+            ("答复: 你好", "你好"),
+            ("转发: 你好", "你好"),
+            ("回覆: 你好", "你好"),
+            ("轉寄: 你好", "你好"),
+            ("返信: こんにちは", "こんにちは"),
+            ("転送: こんにちは", "こんにちは"),
+            ("회신: 안녕하세요", "안녕하세요"),
+            ("답장: 안녕하세요", "안녕하세요"),
+            ("전달: 안녕하세요", "안녕하세요"),
+            ("ตอบกลับ: สวัสดี", "สวัสดี"),
+            ("ส่งต่อ: สวัสดี", "สวัสดี"),
+            ("பதில்: வணக்கம்", "வணக்கம்"),
+            ("முன்னனுப்பு: வணக்கம்", "வணக்கம்"),
+            ("Trả lời: xin chào", "xin chào"),
+            ("Chuyển tiếp: xin chào", "xin chào"),
+        ];
+
+        for (input, expected) in tests {
+            assert_eq!(thread_name(input), expected, "{input:?}");
+        }
+    }
+
+    #[test]
+    fn parse_mixed_locale_chain() {
+        let tests = [
+            ("Ynt: Re: Ynt: teklif", "teklif"),
+            ("Re: Ynt: Re: teklif", "teklif"),
+            ("AW: SV: Re: VS: hallo", "hallo"),
+            (
+                "Fwd: Re: Sv: Re: SV: vms rename Unix mode fixes",
+                "vms rename Unix mode fixes",
+            ),
+            (
+                "Re: RE: Re: Perl_peep recursion exceeds",
+                "Perl_peep recursion exceeds",
+            ),
+            ("İlt: Ynt: rapor", "rapor"),
+            ("回复: Re: 转发: 你好", "你好"),
+            ("Odp: Re: Odp: cześć", "cześć"),
+        ];
+
+        for (input, expected) in tests {
+            assert_eq!(thread_name(input), expected, "{input:?}");
+        }
+    }
+
+    #[test]
+    fn parse_cyrus_fixtures() {
+        let tests = [
+            ("understanding merge history", "understanding merge history"),
+            (
+                "Re: Alias of constant passed to sub",
+                "Alias of constant passed to sub",
+            ),
+            (
+                "[PATCH] merging make_ext and make_ext_cross",
+                "merging make_ext and make_ext_cross",
+            ),
+            (
+                "Re: [PATCH] Parallel testing conflict",
+                "Parallel testing conflict",
+            ),
+            (
+                "Re: [PATCH] Fwd: deprecate UNIVERSAL->import",
+                "deprecate UNIVERSAL->import",
+            ),
+            ("Re[2]: another reply", "another reply"),
+            ("Re[peat]: another reply", "another reply"),
+            ("non\u{a0}breaking space", "non\u{a0}breaking space"),
+            ("回复: test no ascii", "test no ascii"),
+            ("re:\u{a0}non breaking space", "non breaking space"),
+            ("\nfoo\rbar \tbaz ", "foo\rbar \tbaz"),
+            (
+                "how about the weather [SEC=UNOFFICIAL]",
+                "how about the weather [SEC=UNOFFICIAL]",
+            ),
+            ("unmatched left] foobar", "unmatched left] foobar"),
+        ];
+
+        for (input, expected) in tests {
+            assert_eq!(thread_name(input), expected, "{input:?}");
+        }
+    }
+
+    #[test]
     fn parse_trail_fwd() {
         let tests = [
             ("hello (fwd)", "hello"),
@@ -307,7 +639,8 @@ mod tests {
             ("hello () (fwd) ()(fwd)", "hello () (fwd) ()"),
             (")(", ")("),
             (" 你好世界(fwd) ", "你好世界"),
-            ("你好世界 (回覆)", "你好世界"),
+            ("你好世界 (轉寄)", "你好世界"),
+            ("merhaba (i\u{307}letilen)", "merhaba"),
             ("hello(fwd", "hello(fwd"),
             ("hello(fwd))", "hello(fwd))"),
         ];
