@@ -256,8 +256,9 @@ macro_rules! header_names {
         }
 
         pub(crate) fn header_map(name: &[u8]) -> Option<HeaderName<'static>> {
-            hashify::tiny_map!(name,
-                $($lc => HeaderName::$variant,)+
+            hashify::fnc_map!(name,
+                $($lc => Some(HeaderName::$variant),)+
+                _ => None
             )
         }
 

@@ -8,7 +8,7 @@ const MAX_PREFIX_LEN: usize = 40;
 const MAX_GENERIC_PREFIX_CHARS: usize = 4;
 
 fn is_re_prefix(prefix: &str) -> bool {
-    hashify::tiny_set! {prefix.as_bytes(),
+    hashify::set! {prefix.as_bytes(),
         "re",
         "res",
         "resp",
@@ -85,7 +85,7 @@ fn is_re_prefix(prefix: &str) -> bool {
 }
 
 fn is_fwd_prefix(prefix: &str) -> bool {
-    hashify::tiny_set! {prefix.as_bytes(),
+    hashify::set! {prefix.as_bytes(),
         "fwd",
         "fw",
         "rv",

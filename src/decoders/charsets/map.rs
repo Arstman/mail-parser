@@ -22,7 +22,7 @@ pub fn charset_decoder(charset: &[u8]) -> Option<DecoderFnc> {
         };
     }
 
-    hashify::tiny_map!(&l_charset[..charset.len().clamp(1, 45)],
+    hashify::map!(&l_charset[..charset.len().clamp(1, 45)], DecoderFnc,
         "850" => decoder_ibm_850,
         "866" => decoder_ibm866,
         "ansi_x3.4_1968" => decoder_cp1252,
@@ -276,6 +276,7 @@ pub fn charset_decoder(charset: &[u8]) -> Option<DecoderFnc> {
         "x_user_defined" => decoder_x_user_defined,
         "x_x_big5" => decoder_big5,
     )
+    .copied()
 }
 
 #[cfg(test)]

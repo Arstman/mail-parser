@@ -452,7 +452,7 @@ impl<'x> MessageStream<'x> {
             }
         }
 
-        hashify::tiny_map! { buf.as_ref(),
+        hashify::map! { buf.as_ref(), i32,
             "EDT" => -4,
             "EST" => -5,
             "CDT" => -5,
@@ -462,6 +462,7 @@ impl<'x> MessageStream<'x> {
             "PDT" => -7,
             "PST" => -8,
         }
+        .copied()
         .unwrap_or(0)
     }
 }
